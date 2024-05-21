@@ -1,8 +1,15 @@
 import { useEffect, useState } from 'react';
 import './AllPages.css'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import { Project1 } from './Project1';
+import { Project2 } from './Project2';
+
 
 export const Main=()=>{
+  useEffect(()=>{
+    AOS.init({duration:2000})
+  }, [])
     const words = [
         'I am Azmatulla.',
         "I have completed some projects.",
@@ -47,25 +54,17 @@ export const Main=()=>{
       
         return <div className="main-word-animation-container"><h1>{part}</h1></div>;
       };
-
-      window.addEventListener('scroll',()=>{
-        let y_scroll=window.pageYOffset;
-        if(y_scroll>=450){
-          document.getElementById('main_background_two').className='main-background-two'
-        }
-        else{
-          document.getElementById('main_background_two').className='hidden'
-        }
-      })
-
     return(
         <div className='main-background'>
           <div className='main-background-one'>
               <WordAnimation/>
               <h1 className='main-background-one-name'>-Azmatulla Khan</h1>
           </div>
-          <div className='hidden' id='main_background_two'>
+          <div className='main-background-two' id='main_background_two' data-aos="fade-left" data-aos-offset="300">
             <Project1 />
+          </div>
+          <div className='main-background-three' id='main_background_three' data-aos="fade-right" data-aos-offset="300">
+            <Project2 />
           </div>
         </div>
     )

@@ -1,8 +1,9 @@
 .main-background{
     /* border:1px solid #fff; */
-    height:1842px;
+    height:2842px;
     width:1492px;
     background-color: #101111;
+    overflow-x: hidden;
 }
 
 
@@ -97,4 +98,24 @@ a{
     width:600px;
     border: 2px solid #fff;
     margin: 0px 12px;
+}
+
+.main-background-three{
+    /* border:1px solid #fff; */
+    height:842px;
+    width:1492px;
+    background-color: #101111;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 80px;
+    animation: main-background-three-animation 2s 0s;
+    z-index: 8;
+    box-sizing: border-box;
+}
+@keyframes main-background-three-animation {
+    0%{position: relative;left: -600px;opacity: 0;}
+    95%{position: relative;left: 10px;opacity: 0.9;}
+    100%{position: relative;left: 0px;opacity: 1;}
 }
