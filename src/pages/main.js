@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react';
 import './AllPages.css'
+import { Project1 } from './Project1';
 
 export const Main=()=>{
-  
     const words = [
         'I am Azmatulla.',
         "I have completed some projects.",
@@ -60,12 +60,12 @@ export const Main=()=>{
 
     return(
         <div className='main-background'>
-          <div className='main-background-two'>
+          <div className='main-background-one'>
               <WordAnimation/>
               <h1 className='main-background-one-name'>-Azmatulla Khan</h1>
           </div>
           <div className='hidden' id='main_background_two'>
-            <h1>Hi</h1>
+            <Project1 />
           </div>
         </div>
     )
