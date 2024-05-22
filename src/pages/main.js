@@ -4,7 +4,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { Project1 } from './Project1';
 import { Project2 } from './Project2';
-
+import {Project3} from './project3'
 
 export const Main=()=>{
   useEffect(()=>{
@@ -58,13 +58,15 @@ export const Main=()=>{
         <div className='main-background'>
           <div className='main-background-one'>
               <WordAnimation/>
-              <h1 className='main-background-one-name'>-Azmatulla Khan</h1>
           </div>
-          <div className='main-background-two' id='main_background_two' data-aos="fade-left" data-aos-offset="300">
+          <div className='main-background-project' id='main_background_two' data-aos="fade-left" data-aos-offset="300">
             <Project1 />
           </div>
-          <div className='main-background-three' id='main_background_three' data-aos="fade-right" data-aos-offset="300">
+          <div className='main-background-project' id='main_background_three' data-aos="fade-right" data-aos-offset="300">
             <Project2 />
+          </div>
+          <div className='main-background-project' id='main_background_four' data-aos="fade-left" data-aos-offset="300">
+            <Project3 />
           </div>
         </div>
     )
