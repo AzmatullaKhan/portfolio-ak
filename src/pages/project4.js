@@ -9,7 +9,7 @@ export const Project4=()=>{
                 hourly forecasts, and seven-day'forecasts..
             </p>
             <p className="project-technologies"><span>Used Technnologies</span>:-  Reactjs, CSS and HTML</p>
-            <a href="https://github.com/AzmatullaKhan/Weather_Forecast">👉Github👈</a>
+            <a rel="noreferrer" target={"_blank"} href="https://github.com/AzmatullaKhan/Weather_Forecast">👉Github👈</a>
             <div className="project-images">
                 <div style={{display:"flex", overflow:"scroll"}}>
                     <a rel="noreferrer" target={"_blank"} href={require('../images/preview4-img1.png')}><img src={require('../images/preview4-img1.png')} alt='preview1-img' className='project-each-image'/></a>

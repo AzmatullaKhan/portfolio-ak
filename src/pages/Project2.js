@@ -10,7 +10,7 @@ export const Project2=()=>{
                 React in task management with this versatile To-Do List'application.
             </p>
             <p className="project-technologies"><span>Used Technnologies</span>:-  Reactjs, CSS and HTML</p>
-            <a href="https://github.com/AzmatullaKhan/todo-list">👉Github👈</a>
+            <a rel="noreferrer" target={"_blank"} href="https://github.com/AzmatullaKhan/todo-list">👉Github👈</a>
             <div className="project-images">
                 <div style={{display:"flex", overflow:"scroll"}}>
                     <a rel="noreferrer" target={"_blank"} href={require('../images/preview2-img1.png')}><img src={require('../images/preview2-img1.png')} alt='preview1-img' className='project-each-image'/></a>

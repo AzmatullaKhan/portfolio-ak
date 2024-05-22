@@ -9,7 +9,7 @@ export const Project1=()=>{
                 favorite movies and TV shows.
             </p>
             <p className="project-technologies"><span>Used Technnologies</span>:-  Python, Django, PSQL, HTML, CSS and Javascript</p>
-            <a href="https://github.com/AzmatullaKhan/Movie_TV_Show_Recommendation_System">👉Github👈</a>
+            <a rel="noreferrer" target={"_blank"} href="https://github.com/AzmatullaKhan/Movie_TV_Show_Recommendation_System">👉Github👈</a>
             <div className="project-images">
                 <div style={{display:"flex", overflow:"scroll"}}>
                     <a rel="noreferrer" target={"_blank"} href={require('../images/preview1-img1.png')}><img src={require('../images/preview1-img1.png')} alt='preview1-img' className='project-each-image'/></a>
