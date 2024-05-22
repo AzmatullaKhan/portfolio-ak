@@ -4,7 +4,8 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { Project1 } from './Project1';
 import { Project2 } from './Project2';
-import {Project3} from './project3'
+import { Project3 } from './project3'
+import { Project4 } from './project4'
 
 export const Main=()=>{
   useEffect(()=>{
@@ -67,6 +68,9 @@ export const Main=()=>{
           </div>
           <div className='main-background-project' id='main_background_four' data-aos="fade-left" data-aos-offset="300">
             <Project3 />
+          </div>
+          <div className='main-background-project' id='main_background_four' data-aos="fade-right" data-aos-offset="300">
+            <Project4 />
           </div>
         </div>
     )
