@@ -7,6 +7,7 @@ import { Project2 } from './Project2';
 import { Project3 } from './project3';
 import { Project4 } from './project4';
 import { Project5 } from './project5';
+import { Project6 } from './project6';
 
 export const Main=()=>{
   useEffect(()=>{
@@ -75,6 +76,9 @@ export const Main=()=>{
           </div>
           <div className='main-background-project' id='main_background_six' data-aos="fade-left" data-aos-offset="300">
             <Project5 />
+          </div>
+          <div className='main-background-project' id='main_background_seven' data-aos="fade-right" data-aos-offset="300">
+            <Project6 />
           </div>
         </div>
     )
