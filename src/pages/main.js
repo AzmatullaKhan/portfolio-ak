@@ -11,6 +11,7 @@ import { Project6 } from './project6';
 import { Project7 } from './project7';
 import { Project8 } from './project8';
 import { Project9 } from './project9';
+import { Project10 } from './project10';
 
 export const Main=()=>{
   useEffect(()=>{
@@ -83,14 +84,17 @@ export const Main=()=>{
           <div className='main-background-project' id='main_background_seven' data-aos="fade-right" data-aos-offset="300">
             <Project6 />
           </div>
-          <div className='main-background-project' id='main_background_seven' data-aos="fade-left" data-aos-offset="300">
+          <div className='main-background-project' id='main_background_eight' data-aos="fade-left" data-aos-offset="300">
             <Project7 />
           </div>
-          <div className='main-background-project' id='main_background_seven' data-aos="fade-right" data-aos-offset="300">
+          <div className='main-background-project' id='main_background_nine' data-aos="fade-right" data-aos-offset="300">
             <Project8 />
           </div>
-          <div className='main-background-project' id='main_background_seven' data-aos="fade-left" data-aos-offset="300">
+          <div className='main-background-project' id='main_background_ten' data-aos="fade-left" data-aos-offset="300">
             <Project9 />
+          </div>
+          <div className='main-background-project' id='main_background_eleven' data-aos="fade-right" data-aos-offset="300">
+            <Project10 />
           </div>
         </div>
     )
