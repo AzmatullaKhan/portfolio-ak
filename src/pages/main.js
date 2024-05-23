@@ -15,7 +15,7 @@ import { Project10 } from './project10';
 
 export const Main=()=>{
   useEffect(()=>{
-    AOS.init({duration:2000})
+    AOS.init({duration:1000})
   }, [])
     const words = [
         'I am Azmatulla.',
@@ -61,12 +61,23 @@ export const Main=()=>{
       
         return <div className="main-word-animation-container"><h1>{part}</h1></div>;
       };
+
+      // const handleTestClick=(e)=>{
+      //   document.getElementById(e.target.id.slice(0,14)).className='hidden'
+      //   document.getElementById('main_background_two').className='main-background-project'
+      //   console.log()
+      // }
+
     return(
         <div className='main-background'>
           <div className='main-background-one'>
               <WordAnimation/>
           </div>
-          <div className='main-background-project' id='main_background_two' data-aos="fade-left" data-aos-offset="300">
+          {/* <div className='test-animation' id='test-animation' data-aos='fade-left' data-aos-offset='300'>
+            <h1 onClick={handleTestClick} style={{cursor:"pointer"}} id='test-animation-Idholder'>project number: Project Head</h1>
+            <img className='test-each-image' src={require('../images/preview1-img1.png')} alt='img'/>
+          </div> */}
+          <div className='hidden' id='main_background_two' data-aos='fade-left' data-aos-offset='300'>
             <Project1 />
           </div>
           <div className='main-background-project' id='main_background_three' data-aos="fade-right" data-aos-offset="300">
