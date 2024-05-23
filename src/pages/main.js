@@ -96,6 +96,9 @@ export const Main=()=>{
           <div className='main-background-project' id='main_background_eleven' data-aos="fade-right" data-aos-offset="300">
             <Project10 />
           </div>
+          <footer className='footer'>
+            <p><a href="https://github.com/AzmatullaKhan">Copyright © All Rights Reserved 2024 Azmatulla Khan ®</a></p>
+          </footer>
         </div>
     )
 }
