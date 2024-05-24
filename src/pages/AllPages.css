@@ -40,6 +40,7 @@
     width: 400px;
     min-height: 60px;
     background-color: transparent;
+    font-size: 14px;
 }
 @keyframes main-word-animation-container-animation {
     0%{border-left: 1px solid transparent;}
@@ -175,6 +176,19 @@ a{
     width:400px;
     /* border: 2px solid #fff; */
     margin: 0px 12px;
+}
+
+.main-background-about{
+    height:700px;
+    width: 500px;
+    /* border: 1px solid #fff; */
+    z-index: 10;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    position: absolute;
+    margin-left:-800px;
+    border-radius: 12px;
+    color: #58e93b;
 }
 
 

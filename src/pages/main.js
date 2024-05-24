@@ -196,10 +196,40 @@ export const Main=()=>{
     return(
         <div className='main-background'>
           <div className='main-background-one'>
-              <WordAnimation/>
-              <div className='main-background-line' id='main_background_line'></div>
+            {/* <div className='main-background-about'>
+              <br></br>
+              const Name= "Azmatulla Khan" 
+              <br></br><br></br>
+              const graduate_year=year(2026)
+              <br></br><br></br>
+              const desc_about_me=
+              <br></br><br></br>
+              "I am Azmatulla Khan, a passionate 20-year-old pursuing my
+              academic(B.Tech Computer Science) journey at <strong>KL University</strong>, Vaddeswaram.
+              With a burning enthusiasm for technology, I'm deeply immersed in the world
+              of Full Stack Development and Software DevOps.
+              <br></br><br></br>
+              Having excelled in my educational endeavors, I take pride in my academic
+              achievements. I have completed my 10th studies with flying colors,
+              securing an impressive 80%. Subsequently, I conquered my intermediate
+              education with an outstanding score of 90.1%. Currently, I maintain a
+              stellar CGPA of 9.55, with no backlogs to hinder my progress.
+              <br></br><br></br>
+              Beyond academics, I embrace a dynamic and multifaceted lifestyle. Born on
+              April 29th, 2004, in the vibrant state of Andhra Pradesh, I call
+              Vijayawada my home.
+              <br></br><br></br>
+              Feel free to reach out to me at <strong>azmatpersonal@gmail.com</strong>.
+              I'm always eager to connect, collaborate, and embark on new adventures
+              within the vast realm of technology."
+              <br></br><br></br>
+              const regards = "from Azmatulla"<br></br><br></br>
+              Loading...🎰
+              </div> */}
+            <WordAnimation/>
+            <div className='main-background-line' id='main_background_line'></div>
           </div>
-          <div className='project-animation-left' id='project-animation-one' data-aos='fade-left' data-aos-offset='300' onClick={handleProjectOneClick} style={{marginTop:"10rig0px"}}>
+          <div className='project-animation-left' id='project-animation-one' data-aos='fade-left' data-aos-offset='300' onClick={handleProjectOneClick} style={{marginTop:"100px"}}>
             <p  style={{cursor:"pointer", fontSize:"22px"}} id='project-animation-idHolder'>1.Movie TV Show Recommendation</p>
             <img className='animation-each-image-left' src={require('../images/animation-preview1.png')} alt='img'/>
           </div>
