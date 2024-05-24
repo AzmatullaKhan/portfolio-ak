@@ -1,6 +1,6 @@
 .main-background{
-    /* border:1px solid #fff; */
-    height:10000px;
+    min-height:4000px;
+    max-height: auto;
     width:1492px;
     background-color: #101111;
     overflow-x: hidden;
@@ -19,6 +19,16 @@
     padding: 0px 80px;
     z-index: 9;
 }
+.main-background-line{
+    height:3300px;
+    width:2px;
+    padding: 1px;
+    position: absolute;
+    top:300px;
+    margin-left: -200px;
+    background-color: #fff;
+    /* z-index: 7; */
+}
 .main-word-animation-container{
     border-color: transparent;
     position: relative;
@@ -26,7 +36,9 @@
     animation-iteration-count: infinite;
     box-sizing: border-box;
     padding: 0px 4px;
-    top:-200px;
+    left:105px;
+    width: 400px;
+    min-height: 60px;
     background-color: transparent;
 }
 @keyframes main-word-animation-container-animation {
@@ -49,7 +61,7 @@
     0%{opacity: 1}
     100%{opacity: 0}
 }
-.main-background-project{
+.main-background-project-left{
     /* border:1px solid #fff; */
     height:842px;
     width:1492px;
@@ -59,13 +71,35 @@
     flex-direction: column;
     align-items: center;
     padding: 0px 80px;
-    animation: main-background-project-animation 2s 0s;
-    z-index: 8;
+    animation: main-background-project-animation-left 1s ease-out 0s;
+    /* z-index: 9px; */
     box-sizing: border-box;
+    backdrop-filter: blur(12px);
+
 }
-@keyframes main-background-project-animation {
-    0%{opacity: 0;}
-    100%{opacity: 1;}
+@keyframes main-background-project-animation-left {
+    0%{position: relative;left: -600px;}
+    100%{position: relative; left: 0px;}
+}
+.main-background-project-right{
+    /* border:1px solid #fff; */
+    height:842px;
+    width:1492px;
+    background-color: #101111;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 80px;
+    animation: main-background-project-animation-right 1s ease-out 0s;
+    /* z-index: 9px; */
+    box-sizing: border-box;
+    backdrop-filter: blur(12px);
+
+}
+@keyframes main-background-project-animation-right {
+    0%{position: relative;left: 600px;}
+    100%{position: relative; left: 0px;}
 }
 .project-head{
     text-decoration: underline;
@@ -99,20 +133,38 @@ a{
     margin: 0px 12px;
 }
 
-.test-animation{
+.project-animation-left{
     position: relative;
-    left:441px;
+    left:220px;
+    text-align: center;
+    width:420px;
 }
-.test-each-image{
+.animation-each-image-left{
     height:200px;
     border-radius: 12px;
     width:400px;
-    border: 2px solid #fff;
+    /* border: 2px solid #fff; */
     margin: 0px 12px;
 }
+
+.project-animation-right{
+    position: relative;
+    left:650px;
+    text-align: center;
+    width:420px;
+}
+.animation-each-image-right{
+    height:200px;
+    border-radius: 12px;
+    width:400px;
+    /* border: 2px solid #fff; */
+    margin: 0px 12px;
+}
+
 
 
 footer{
     width:100%;
     text-align: center;
+    margin-top:100px ;
 }

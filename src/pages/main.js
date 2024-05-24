@@ -14,6 +14,9 @@ import { Project9 } from './project9';
 import { Project10 } from './project10';
 
 export const Main=()=>{
+
+  let clicks_project=Number(1)
+
   useEffect(()=>{
     AOS.init({duration:1000})
   }, [])
@@ -62,51 +65,146 @@ export const Main=()=>{
         return <div className="main-word-animation-container"><h1>{part}</h1></div>;
       };
 
-      // const handleTestClick=(e)=>{
-      //   document.getElementById(e.target.id.slice(0,14)).className='hidden'
-      //   document.getElementById('main_background_two').className='main-background-project'
-      //   console.log()
-      // }
+      const handleProjectOneClick=()=>{
+        document.getElementById('project-animation-one').className='hidden'
+        document.getElementById('main_background_two').className='main-background-project-left'
+        document.getElementById('main_background_line').style.height=3300+(clicks_project*560)+'px'
+        clicks_project+=1
+      }
 
+      const handleProjectTwoClick=()=>{
+        document.getElementById('project-animation-two').className='hidden'
+        document.getElementById('main_background_three').className='main-background-project-right'
+        document.getElementById('main_background_line').style.height=3300+(clicks_project*560)+'px'
+        clicks_project+=1
+      }
+
+      const handleProjectThreeClick=()=>{
+        document.getElementById('project-animation-three').className='hidden'
+        document.getElementById('main_background_four').className='main-background-project-left'
+        document.getElementById('main_background_line').style.height=3300+(clicks_project*560)+'px'
+        clicks_project+=1
+      }
+
+      const handleProjectFourClick=()=>{
+        document.getElementById('project-animation-four').className='hidden'
+        document.getElementById('main_background_five').className='main-background-project-right'
+        document.getElementById('main_background_line').style.height=3300+(clicks_project*560)+'px'
+        clicks_project+=1
+      }
+      const handleProjectFiveClick=()=>{
+        document.getElementById('project-animation-five').className='hidden'
+        document.getElementById('main_background_six').className='main-background-project-left'
+        document.getElementById('main_background_line').style.height=3300+(clicks_project*560)+'px'
+        clicks_project+=1
+      }
+      const handleProjectSixClick=()=>{
+        document.getElementById('project-animation-six').className='hidden'
+        document.getElementById('main_background_seven').className='main-background-project-right'
+        document.getElementById('main_background_line').style.height=3300+(clicks_project*560)+'px'
+        clicks_project+=1
+      }
+      const handleProjectSevenClick=()=>{
+        document.getElementById('project-animation-seven').className='hidden'
+        document.getElementById('main_background_eight').className='main-background-project-left'
+        document.getElementById('main_background_line').style.height=3300+(clicks_project*560)+'px'
+        clicks_project+=1
+      }
+      const handleProjectEightClick=()=>{
+        document.getElementById('project-animation-eight').className='hidden'
+        document.getElementById('main_background_nine').className='main-background-project-right'
+        document.getElementById('main_background_line').style.height=3300+(clicks_project*560)+'px'
+        clicks_project+=1
+      }
+      const handleProjectNineClick=()=>{
+        document.getElementById('project-animation-nine').className='hidden'
+        document.getElementById('main_background_ten').className='main-background-project-left'
+        document.getElementById('main_background_line').style.height=3300+(clicks_project*560)+'px'
+        clicks_project+=1
+      }
+      const handleProjectTenClick=()=>{
+        document.getElementById('project-animation-ten').className='hidden'
+        document.getElementById('main_background_eleven').className='main-background-project-right'
+        document.getElementById('main_background_line').style.height=3300+(clicks_project*560)+'px'
+        clicks_project+=1
+      }
     return(
         <div className='main-background'>
           <div className='main-background-one'>
               <WordAnimation/>
+              <div className='main-background-line' id='main_background_line'></div>
           </div>
-          {/* <div className='test-animation' id='test-animation' data-aos='fade-left' data-aos-offset='300'>
-            <h1 onClick={handleTestClick} style={{cursor:"pointer"}} id='test-animation-Idholder'>project number: Project Head</h1>
-            <img className='test-each-image' src={require('../images/preview1-img1.png')} alt='img'/>
-          </div> */}
-          <div className='hidden' id='main_background_two' data-aos='fade-left' data-aos-offset='300'>
+          <div className='project-animation-left' id='project-animation-one' data-aos='fade-left' data-aos-offset='300' onClick={handleProjectOneClick} style={{marginTop:"10rig0px"}}>
+            <p  style={{cursor:"pointer", fontSize:"22px"}} id='project-animation-idHolder'>1.Movie TV Show Recommendation</p>
+            <img className='animation-each-image-left' src={require('../images/animation-preview1.png')} alt='img'/>
+          </div>
+          <div className='hidden' id='main_background_two'>
             <Project1 />
           </div>
-          <div className='main-background-project' id='main_background_three' data-aos="fade-right" data-aos-offset="300">
+          <div className='project-animation-right' id='project-animation-two' data-aos='fade-right' data-aos-offset='300' onClick={handleProjectTwoClick}>
+            <p  style={{cursor:"pointer", fontSize:"22px"}} id='project-animation-idHolder'>2.Todo List</p>
+            <img className='animation-each-image-right' src={require('../images/animation-preview2.png')} alt='img'/>
+          </div>
+          <div className='hidden' id='main_background_three'>
             <Project2 />
           </div>
-          <div className='main-background-project' id='main_background_four' data-aos="fade-left" data-aos-offset="300">
+          <div className='project-animation-left' id='project-animation-three' data-aos='fade-left' data-aos-offset='300' onClick={handleProjectThreeClick}>
+            <p  style={{cursor:"pointer", fontSize:"22px"}} id='project-animation-idHolder'>3.Product Adverstising</p>
+            <img className='animation-each-image-left' src={require('../images/animation-preview3.png')} alt='img'/>
+          </div>
+          <div className='hidden' id='main_background_four'>
             <Project3 />
           </div>
-          <div className='main-background-project' id='main_background_five' data-aos="fade-right" data-aos-offset="300">
+          <div className='project-animation-right' id='project-animation-four' data-aos='fade-right' data-aos-offset='300' onClick={handleProjectFourClick}>
+            <p  style={{cursor:"pointer", fontSize:"22px"}} id='project-animation-idHolder'>4.Weather Forecast</p>
+            <img className='animation-each-image-right' src={require('../images/animation-preview4.png')} alt='img'/>
+          </div>
+          <div className='hidden' id='main_background_five'>
             <Project4 />
           </div>
-          <div className='main-background-project' id='main_background_six' data-aos="fade-left" data-aos-offset="300">
+          <div className='project-animation-left' id='project-animation-five' data-aos='fade-left' data-aos-offset='300' onClick={handleProjectFiveClick}>
+            <p  style={{cursor:"pointer", fontSize:"22px"}} id='project-animation-idHolder'>5.Chatting Bot</p>
+            <img className='animation-each-image-left' src={require('../images/animation-preview5.png')} alt='img'/>
+          </div>
+          <div className='hidden' id='main_background_six'>
             <Project5 />
           </div>
-          <div className='main-background-project' id='main_background_seven' data-aos="fade-right" data-aos-offset="300">
+          <div className='project-animation-right' id='project-animation-six' data-aos='fade-right' data-aos-offset='300' onClick={handleProjectSixClick}>
+            <p  style={{cursor:"pointer", fontSize:"22px"}} id='project-animation-idHolder'>6.ATM</p>
+            <img className='animation-each-image-right' src={require('../images/animation-preview6.png')} alt='img'/>
+          </div>
+          <div className='hidden' id='main_background_seven'>
             <Project6 />
           </div>
-          <div className='main-background-project' id='main_background_eight' data-aos="fade-left" data-aos-offset="300">
+          <div className='project-animation-left' id='project-animation-seven' data-aos='fade-left' data-aos-offset='300' onClick={handleProjectSevenClick}>
+            <p  style={{cursor:"pointer", fontSize:"22px"}} id='project-animation-idHolder'>7.SGPA/CGPA Calculator</p>
+            <img className='animation-each-image-left' src={require('../images/animation-preview7.png')} alt='img'/>
+          </div>
+          <div className='hidden' id='main_background_eight'>
             <Project7 />
           </div>
-          <div className='main-background-project' id='main_background_nine' data-aos="fade-right" data-aos-offset="300">
+          <div className='project-animation-right' id='project-animation-eight' data-aos='fade-right' data-aos-offset='300' onClick={handleProjectEightClick}>
+            <p  style={{cursor:"pointer", fontSize:"22px"}} id='project-animation-idHolder'>8.CSEdge Internship</p>
+            <img className='animation-each-image-right' src={require('../images/animation-preview8.png')} alt='img'/>
+          </div>
+          <div className='hidden' id='main_background_nine'>
             <Project8 />
           </div>
-          <div className='main-background-project' id='main_background_ten' data-aos="fade-left" data-aos-offset="300">
+          <div className='project-animation-left' id='project-animation-nine' data-aos='fade-left' data-aos-offset='300' onClick={handleProjectNineClick}>
+            <p  style={{cursor:"pointer", fontSize:"22px"}} id='project-animation-idHolder'>9.Tourism and Hospitality</p>
+            <img className='animation-each-image-left' src={require('../images/animation-preview9.png')} alt='img'/>
+          </div>
+          <div className='hidden' id='main_background_ten'>
             <Project9 />
           </div>
-          <div className='main-background-project' id='main_background_eleven' data-aos="fade-right" data-aos-offset="300">
+          <div className='project-animation-right' id='project-animation-ten' data-aos='fade-right' data-aos-offset='300' onClick={handleProjectTenClick}>
+            <p  style={{cursor:"pointer", fontSize:"22px"}} id='project-animation-idHolder'>10.Swecha Internship</p>
+            <img className='animation-each-image-right' src={require('../images/animation-preview10.png')} alt='img'/>
+          </div>
+          <div className='hidden' id='main_background_eleven'>
             <Project10 />
           </div>
+
           <footer className='footer'>
             <p><a href="https://github.com/AzmatullaKhan">Copyright © All Rights Reserved 2024 Azmatulla Khan ®</a></p>
           </footer>
