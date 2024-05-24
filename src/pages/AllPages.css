@@ -139,6 +139,22 @@ a{
     text-align: center;
     width:420px;
 }
+.project-close-button{
+    height: 40px;
+    width: 120px;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    outline: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+.project-close-button:hover{
+    width:122px;
+    background-color: #fff;
+    color: #000;
+}
 .animation-each-image-left{
     height:200px;
     border-radius: 12px;

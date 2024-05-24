@@ -13,9 +13,11 @@ import { Project8 } from './project8';
 import { Project9 } from './project9';
 import { Project10 } from './project10';
 
+export let clicks_project=useState
+
 export const Main=()=>{
 
-  let clicks_project=Number(1)
+
 
   useEffect(()=>{
     AOS.init({duration:1000})
@@ -128,6 +130,69 @@ export const Main=()=>{
         document.getElementById('main_background_line').style.height=3300+(clicks_project*560)+'px'
         clicks_project+=1
       }
+
+      const handleCloseOne=()=>{
+        document.getElementById('project-animation-one').className='project-animation-left'
+        document.getElementById('main_background_two').className='hidden'
+        document.getElementById('main_background_line').style.height=3300+(clicks_project*560)-560+'px'
+        clicks_project-=1
+      }
+
+      const handleCloseTwo=()=>{
+        document.getElementById('project-animation-two').className='project-animation-right'
+        document.getElementById('main_background_three').className='hidden'
+        document.getElementById('main_background_line').style.height=3300+(clicks_project*560)-560+'px'
+        clicks_project-=1
+      }
+
+      const handleCloseThree=()=>{
+        document.getElementById('project-animation-three').className='project-animation-left'
+        document.getElementById('main_background_four').className='hidden'
+        document.getElementById('main_background_line').style.height=3300+(clicks_project*560)-560+'px'
+        clicks_project-=1
+      }
+      const handleCloseFour=()=>{
+        document.getElementById('project-animation-four').className='project-animation-right'
+        document.getElementById('main_background_five').className='hidden'
+        document.getElementById('main_background_line').style.height=3300+(clicks_project*560)-560+'px'
+        clicks_project-=1
+      }
+      const handleCloseFive=()=>{
+        document.getElementById('project-animation-five').className='project-animation-left'
+        document.getElementById('main_background_six').className='hidden'
+        document.getElementById('main_background_line').style.height=3300+(clicks_project*560)-560+'px'
+        clicks_project-=1
+      }
+      const handleCloseSix=()=>{
+        document.getElementById('project-animation-six').className='project-animation-right'
+        document.getElementById('main_background_seven').className='hidden'
+        document.getElementById('main_background_line').style.height=3300+(clicks_project*560)-560+'px'
+        clicks_project-=1
+      }
+      const handleCloseSeven=()=>{
+        document.getElementById('project-animation-seven').className='project-animation-left'
+        document.getElementById('main_background_eight').className='hidden'
+        document.getElementById('main_background_line').style.height=3300+(clicks_project*560)-560+'px'
+        clicks_project-=1
+      }
+      const handleCloseEight=()=>{
+        document.getElementById('project-animation-eight').className='project-animation-right'
+        document.getElementById('main_background_nine').className='hidden'
+        document.getElementById('main_background_line').style.height=3300+(clicks_project*560)-560+'px'
+        clicks_project-=1
+      }
+      const handleCloseNine=()=>{
+        document.getElementById('project-animation-nine').className='project-animation-left'
+        document.getElementById('main_background_ten').className='hidden'
+        document.getElementById('main_background_line').style.height=3300+(clicks_project*560)-560+'px'
+        clicks_project-=1
+      }
+      const handleCloseTen=()=>{
+        document.getElementById('project-animation-ten').className='project-animation-right'
+        document.getElementById('main_background_eleven').className='hidden'
+        document.getElementById('main_background_line').style.height=3300+(clicks_project*560)-560+'px'
+        clicks_project-=1
+      }
     return(
         <div className='main-background'>
           <div className='main-background-one'>
@@ -140,6 +205,7 @@ export const Main=()=>{
           </div>
           <div className='hidden' id='main_background_two'>
             <Project1 />
+            <button className='project-close-button' onClick={handleCloseOne}>Close</button>
           </div>
           <div className='project-animation-right' id='project-animation-two' data-aos='fade-right' data-aos-offset='300' onClick={handleProjectTwoClick}>
             <p  style={{cursor:"pointer", fontSize:"22px"}} id='project-animation-idHolder'>2.Todo List</p>
@@ -147,6 +213,7 @@ export const Main=()=>{
           </div>
           <div className='hidden' id='main_background_three'>
             <Project2 />
+            <button className='project-close-button' onClick={handleCloseTwo}>Close</button>
           </div>
           <div className='project-animation-left' id='project-animation-three' data-aos='fade-left' data-aos-offset='300' onClick={handleProjectThreeClick}>
             <p  style={{cursor:"pointer", fontSize:"22px"}} id='project-animation-idHolder'>3.Product Adverstising</p>
@@ -154,6 +221,7 @@ export const Main=()=>{
           </div>
           <div className='hidden' id='main_background_four'>
             <Project3 />
+            <button className='project-close-button' onClick={handleCloseThree}>Close</button>
           </div>
           <div className='project-animation-right' id='project-animation-four' data-aos='fade-right' data-aos-offset='300' onClick={handleProjectFourClick}>
             <p  style={{cursor:"pointer", fontSize:"22px"}} id='project-animation-idHolder'>4.Weather Forecast</p>
@@ -161,6 +229,7 @@ export const Main=()=>{
           </div>
           <div className='hidden' id='main_background_five'>
             <Project4 />
+            <button className='project-close-button' onClick={handleCloseFour}>Close</button>
           </div>
           <div className='project-animation-left' id='project-animation-five' data-aos='fade-left' data-aos-offset='300' onClick={handleProjectFiveClick}>
             <p  style={{cursor:"pointer", fontSize:"22px"}} id='project-animation-idHolder'>5.Chatting Bot</p>
@@ -168,6 +237,7 @@ export const Main=()=>{
           </div>
           <div className='hidden' id='main_background_six'>
             <Project5 />
+            <button className='project-close-button' onClick={handleCloseFive}>Close</button>
           </div>
           <div className='project-animation-right' id='project-animation-six' data-aos='fade-right' data-aos-offset='300' onClick={handleProjectSixClick}>
             <p  style={{cursor:"pointer", fontSize:"22px"}} id='project-animation-idHolder'>6.ATM</p>
@@ -175,6 +245,7 @@ export const Main=()=>{
           </div>
           <div className='hidden' id='main_background_seven'>
             <Project6 />
+            <button className='project-close-button' onClick={handleCloseSix}>Close</button>
           </div>
           <div className='project-animation-left' id='project-animation-seven' data-aos='fade-left' data-aos-offset='300' onClick={handleProjectSevenClick}>
             <p  style={{cursor:"pointer", fontSize:"22px"}} id='project-animation-idHolder'>7.SGPA/CGPA Calculator</p>
@@ -182,6 +253,7 @@ export const Main=()=>{
           </div>
           <div className='hidden' id='main_background_eight'>
             <Project7 />
+            <button className='project-close-button' onClick={handleCloseSeven}>Close</button>
           </div>
           <div className='project-animation-right' id='project-animation-eight' data-aos='fade-right' data-aos-offset='300' onClick={handleProjectEightClick}>
             <p  style={{cursor:"pointer", fontSize:"22px"}} id='project-animation-idHolder'>8.CSEdge Internship</p>
@@ -189,6 +261,7 @@ export const Main=()=>{
           </div>
           <div className='hidden' id='main_background_nine'>
             <Project8 />
+            <button className='project-close-button' onClick={handleCloseEight}>Close</button>
           </div>
           <div className='project-animation-left' id='project-animation-nine' data-aos='fade-left' data-aos-offset='300' onClick={handleProjectNineClick}>
             <p  style={{cursor:"pointer", fontSize:"22px"}} id='project-animation-idHolder'>9.Tourism and Hospitality</p>
@@ -196,6 +269,7 @@ export const Main=()=>{
           </div>
           <div className='hidden' id='main_background_ten'>
             <Project9 />
+            <button className='project-close-button' onClick={handleCloseNine}>Close</button>
           </div>
           <div className='project-animation-right' id='project-animation-ten' data-aos='fade-right' data-aos-offset='300' onClick={handleProjectTenClick}>
             <p  style={{cursor:"pointer", fontSize:"22px"}} id='project-animation-idHolder'>10.Swecha Internship</p>
@@ -203,6 +277,7 @@ export const Main=()=>{
           </div>
           <div className='hidden' id='main_background_eleven'>
             <Project10 />
+            <button className='project-close-button' onClick={handleCloseTen}>Close</button>
           </div>
 
           <footer className='footer'>
