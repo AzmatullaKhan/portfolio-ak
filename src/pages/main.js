@@ -209,7 +209,7 @@ export const Main=()=>{
 
           <section id='projectSection'>
             <div><br></br><br></br><br></br><br></br><br></br></div>
-            <h2 style={{margin:"0px 0px 0px 400px", textDecoration:"underline"}}>Projects</h2>
+            <h2 style={{margin:"0px 0px 0px 400px", textDecoration:"underline"}}  data-aos='fade-down' data-aos-offset="300">Projects</h2>
             <div className='project-animation-left' id='project-animation-one' data-aos='fade-left' data-aos-offset='300' onClick={handleProjectOneClick} style={{marginTop:"0px"}}>
               <p  style={{cursor:"pointer", fontSize:"22px"}} id='project-animation-idHolder'>1.Movie TV Show Recommendation</p>
               <img className='animation-each-image-left' src={require('../images/animation-preview1.png')} alt='img'/>
@@ -323,8 +323,8 @@ export const Main=()=>{
           </section>
 
           <section id='resumeSection'>
-            <div className='resumeSection-container' data-aos='fade-down' data-aos-offset="400">
-              <img src={require('../files/resume.png')} className='resumeSection-resume' alt='resume'/>
+            <div className='resumeSection-container' data-aos='fade-down' data-aos-offset="400"><br></br>
+              <a rel='noreferrer' target={'_blank'} href={require('../files/resume.pdf')}><img src={require('../files/resume.png')} className='resumeSection-resume' alt='resume'/></a>
             </div>
           </section>
 
