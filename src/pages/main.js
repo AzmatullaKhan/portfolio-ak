@@ -13,11 +13,10 @@ import { Project8 } from './project8';
 import { Project9 } from './project9';
 import { Project10 } from './project10';
 
-export let clicks_project=useState
 
 export const Main=()=>{
 
-
+  let clicks_project=Number(1)
 
   useEffect(()=>{
     AOS.init({duration:1000})
@@ -70,128 +69,128 @@ export const Main=()=>{
       const handleProjectOneClick=()=>{
         document.getElementById('project-animation-one').className='hidden'
         document.getElementById('main_background_two').className='main-background-project-left'
-        document.getElementById('main_background_line').style.height=3300+(clicks_project*560)+'px'
+        document.getElementById('main_background_line').style.minHeight=3300+(clicks_project*560)+'px'
         clicks_project+=1
       }
 
       const handleProjectTwoClick=()=>{
         document.getElementById('project-animation-two').className='hidden'
         document.getElementById('main_background_three').className='main-background-project-right'
-        document.getElementById('main_background_line').style.height=3300+(clicks_project*560)+'px'
+        document.getElementById('main_background_line').style.minHeight=3300+(clicks_project*560)+'px'
         clicks_project+=1
       }
 
       const handleProjectThreeClick=()=>{
         document.getElementById('project-animation-three').className='hidden'
         document.getElementById('main_background_four').className='main-background-project-left'
-        document.getElementById('main_background_line').style.height=3300+(clicks_project*560)+'px'
+        document.getElementById('main_background_line').style.minHeight=3300+(clicks_project*560)+'px'
         clicks_project+=1
       }
 
       const handleProjectFourClick=()=>{
         document.getElementById('project-animation-four').className='hidden'
         document.getElementById('main_background_five').className='main-background-project-right'
-        document.getElementById('main_background_line').style.height=3300+(clicks_project*560)+'px'
+        document.getElementById('main_background_line').style.minHeight=3300+(clicks_project*560)+'px'
         clicks_project+=1
       }
       const handleProjectFiveClick=()=>{
         document.getElementById('project-animation-five').className='hidden'
         document.getElementById('main_background_six').className='main-background-project-left'
-        document.getElementById('main_background_line').style.height=3300+(clicks_project*560)+'px'
+        document.getElementById('main_background_line').style.minHeight=3300+(clicks_project*560)+'px'
         clicks_project+=1
       }
       const handleProjectSixClick=()=>{
         document.getElementById('project-animation-six').className='hidden'
         document.getElementById('main_background_seven').className='main-background-project-right'
-        document.getElementById('main_background_line').style.height=3300+(clicks_project*560)+'px'
+        document.getElementById('main_background_line').style.minHeight=3300+(clicks_project*560)+'px'
         clicks_project+=1
       }
       const handleProjectSevenClick=()=>{
         document.getElementById('project-animation-seven').className='hidden'
         document.getElementById('main_background_eight').className='main-background-project-left'
-        document.getElementById('main_background_line').style.height=3300+(clicks_project*560)+'px'
+        document.getElementById('main_background_line').style.minHeight=3300+(clicks_project*560)+'px'
         clicks_project+=1
       }
       const handleProjectEightClick=()=>{
         document.getElementById('project-animation-eight').className='hidden'
         document.getElementById('main_background_nine').className='main-background-project-right'
-        document.getElementById('main_background_line').style.height=3300+(clicks_project*560)+'px'
+        document.getElementById('main_background_line').style.minHeight=3300+(clicks_project*560)+'px'
         clicks_project+=1
       }
       const handleProjectNineClick=()=>{
         document.getElementById('project-animation-nine').className='hidden'
         document.getElementById('main_background_ten').className='main-background-project-left'
-        document.getElementById('main_background_line').style.height=3300+(clicks_project*560)+'px'
+        document.getElementById('main_background_line').style.minHeight=3300+(clicks_project*560)+'px'
         clicks_project+=1
       }
       const handleProjectTenClick=()=>{
         document.getElementById('project-animation-ten').className='hidden'
         document.getElementById('main_background_eleven').className='main-background-project-right'
-        document.getElementById('main_background_line').style.height=3300+(clicks_project*560)+'px'
+        document.getElementById('main_background_line').style.minHeight=3300+(clicks_project*560)+'px'
         clicks_project+=1
       }
 
       const handleCloseOne=()=>{
         document.getElementById('project-animation-one').className='project-animation-left'
         document.getElementById('main_background_two').className='hidden'
-        document.getElementById('main_background_line').style.height=3300+(clicks_project*560)-560+'px'
         clicks_project-=1
+        document.getElementById('main_background_line').style.minHeight=3300+(clicks_project*560)-560+'px'
       }
 
       const handleCloseTwo=()=>{
         document.getElementById('project-animation-two').className='project-animation-right'
         document.getElementById('main_background_three').className='hidden'
-        document.getElementById('main_background_line').style.height=3300+(clicks_project*560)-560+'px'
         clicks_project-=1
+        document.getElementById('main_background_line').style.minHeight=3300+(clicks_project*560)-560+'px'
       }
 
       const handleCloseThree=()=>{
         document.getElementById('project-animation-three').className='project-animation-left'
         document.getElementById('main_background_four').className='hidden'
-        document.getElementById('main_background_line').style.height=3300+(clicks_project*560)-560+'px'
         clicks_project-=1
+        document.getElementById('main_background_line').style.minHeight=3300+(clicks_project*560)-560+'px'
       }
       const handleCloseFour=()=>{
         document.getElementById('project-animation-four').className='project-animation-right'
         document.getElementById('main_background_five').className='hidden'
-        document.getElementById('main_background_line').style.height=3300+(clicks_project*560)-560+'px'
         clicks_project-=1
+        document.getElementById('main_background_line').style.minHeight=3300+(clicks_project*560)-560+'px'
       }
       const handleCloseFive=()=>{
         document.getElementById('project-animation-five').className='project-animation-left'
         document.getElementById('main_background_six').className='hidden'
-        document.getElementById('main_background_line').style.height=3300+(clicks_project*560)-560+'px'
         clicks_project-=1
+        document.getElementById('main_background_line').style.minHeight=3300+(clicks_project*560)-560+'px'
       }
       const handleCloseSix=()=>{
         document.getElementById('project-animation-six').className='project-animation-right'
         document.getElementById('main_background_seven').className='hidden'
-        document.getElementById('main_background_line').style.height=3300+(clicks_project*560)-560+'px'
         clicks_project-=1
+        document.getElementById('main_background_line').style.minHeight=3300+(clicks_project*560)-560+'px'
       }
       const handleCloseSeven=()=>{
         document.getElementById('project-animation-seven').className='project-animation-left'
         document.getElementById('main_background_eight').className='hidden'
-        document.getElementById('main_background_line').style.height=3300+(clicks_project*560)-560+'px'
         clicks_project-=1
+        document.getElementById('main_background_line').style.minHeight=3300+(clicks_project*560)-560+'px'
       }
       const handleCloseEight=()=>{
         document.getElementById('project-animation-eight').className='project-animation-right'
         document.getElementById('main_background_nine').className='hidden'
-        document.getElementById('main_background_line').style.height=3300+(clicks_project*560)-560+'px'
         clicks_project-=1
+        document.getElementById('main_background_line').style.minHeight=3300+(clicks_project*560)-560+'px'
       }
       const handleCloseNine=()=>{
         document.getElementById('project-animation-nine').className='project-animation-left'
         document.getElementById('main_background_ten').className='hidden'
-        document.getElementById('main_background_line').style.height=3300+(clicks_project*560)-560+'px'
         clicks_project-=1
+        document.getElementById('main_background_line').style.minHeight=3300+(clicks_project*560)-560+'px'
       }
       const handleCloseTen=()=>{
         document.getElementById('project-animation-ten').className='project-animation-right'
         document.getElementById('main_background_eleven').className='hidden'
-        document.getElementById('main_background_line').style.height=3300+(clicks_project*560)-560+'px'
         clicks_project-=1
+        document.getElementById('main_background_line').style.minHeight=3300+(clicks_project*560)-560+'px'
       }
     return(
         <div className='main-background'>
@@ -207,7 +206,7 @@ export const Main=()=>{
             </div>
           </section>
           <section id='projectSection'>
-
+            <div><br></br><br></br><br></br><br></br></div>
             <div className='project-animation-left' id='project-animation-one' data-aos='fade-left' data-aos-offset='300' onClick={handleProjectOneClick} style={{marginTop:"0px"}}>
               <p  style={{cursor:"pointer", fontSize:"22px"}} id='project-animation-idHolder'>1.Movie TV Show Recommendation</p>
               <img className='animation-each-image-left' src={require('../images/animation-preview1.png')} alt='img'/>
