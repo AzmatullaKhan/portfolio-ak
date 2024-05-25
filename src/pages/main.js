@@ -195,121 +195,102 @@ export const Main=()=>{
       }
     return(
         <div className='main-background'>
-          <div className='main-background-one'>
-            {/* <div className='main-background-about'>
-              <br></br>
-              const Name= "Azmatulla Khan" 
-              <br></br><br></br>
-              const graduate_year=year(2026)
-              <br></br><br></br>
-              const desc_about_me=
-              <br></br><br></br>
-              "I am Azmatulla Khan, a passionate 20-year-old pursuing my
-              academic(B.Tech Computer Science) journey at <strong>KL University</strong>, Vaddeswaram.
-              With a burning enthusiasm for technology, I'm deeply immersed in the world
-              of Full Stack Development and Software DevOps.
-              <br></br><br></br>
-              Having excelled in my educational endeavors, I take pride in my academic
-              achievements. I have completed my 10th studies with flying colors,
-              securing an impressive 80%. Subsequently, I conquered my intermediate
-              education with an outstanding score of 90.1%. Currently, I maintain a
-              stellar CGPA of 9.55, with no backlogs to hinder my progress.
-              <br></br><br></br>
-              Beyond academics, I embrace a dynamic and multifaceted lifestyle. Born on
-              April 29th, 2004, in the vibrant state of Andhra Pradesh, I call
-              Vijayawada my home.
-              <br></br><br></br>
-              Feel free to reach out to me at <strong>azmatpersonal@gmail.com</strong>.
-              I'm always eager to connect, collaborate, and embark on new adventures
-              within the vast realm of technology."
-              <br></br><br></br>
-              const regards = "from Azmatulla"<br></br><br></br>
-              Loading...🎰
-              </div> */}
-            <WordAnimation/>
-            <div className='main-background-line' id='main_background_line'></div>
-          </div>
-          <div className='project-animation-left' id='project-animation-one' data-aos='fade-left' data-aos-offset='300' onClick={handleProjectOneClick} style={{marginTop:"100px"}}>
-            <p  style={{cursor:"pointer", fontSize:"22px"}} id='project-animation-idHolder'>1.Movie TV Show Recommendation</p>
-            <img className='animation-each-image-left' src={require('../images/animation-preview1.png')} alt='img'/>
-          </div>
-          <div className='hidden' id='main_background_two'>
-            <Project1 />
-            <button className='project-close-button' onClick={handleCloseOne}>Close</button>
-          </div>
-          <div className='project-animation-right' id='project-animation-two' data-aos='fade-right' data-aos-offset='300' onClick={handleProjectTwoClick}>
-            <p  style={{cursor:"pointer", fontSize:"22px"}} id='project-animation-idHolder'>2.Todo List</p>
-            <img className='animation-each-image-right' src={require('../images/animation-preview2.png')} alt='img'/>
-          </div>
-          <div className='hidden' id='main_background_three'>
-            <Project2 />
-            <button className='project-close-button' onClick={handleCloseTwo}>Close</button>
-          </div>
-          <div className='project-animation-left' id='project-animation-three' data-aos='fade-left' data-aos-offset='300' onClick={handleProjectThreeClick}>
-            <p  style={{cursor:"pointer", fontSize:"22px"}} id='project-animation-idHolder'>3.Product Adverstising</p>
-            <img className='animation-each-image-left' src={require('../images/animation-preview3.png')} alt='img'/>
-          </div>
-          <div className='hidden' id='main_background_four'>
-            <Project3 />
-            <button className='project-close-button' onClick={handleCloseThree}>Close</button>
-          </div>
-          <div className='project-animation-right' id='project-animation-four' data-aos='fade-right' data-aos-offset='300' onClick={handleProjectFourClick}>
-            <p  style={{cursor:"pointer", fontSize:"22px"}} id='project-animation-idHolder'>4.Weather Forecast</p>
-            <img className='animation-each-image-right' src={require('../images/animation-preview4.png')} alt='img'/>
-          </div>
-          <div className='hidden' id='main_background_five'>
-            <Project4 />
-            <button className='project-close-button' onClick={handleCloseFour}>Close</button>
-          </div>
-          <div className='project-animation-left' id='project-animation-five' data-aos='fade-left' data-aos-offset='300' onClick={handleProjectFiveClick}>
-            <p  style={{cursor:"pointer", fontSize:"22px"}} id='project-animation-idHolder'>5.Chatting Bot</p>
-            <img className='animation-each-image-left' src={require('../images/animation-preview5.png')} alt='img'/>
-          </div>
-          <div className='hidden' id='main_background_six'>
-            <Project5 />
-            <button className='project-close-button' onClick={handleCloseFive}>Close</button>
-          </div>
-          <div className='project-animation-right' id='project-animation-six' data-aos='fade-right' data-aos-offset='300' onClick={handleProjectSixClick}>
-            <p  style={{cursor:"pointer", fontSize:"22px"}} id='project-animation-idHolder'>6.ATM</p>
-            <img className='animation-each-image-right' src={require('../images/animation-preview6.png')} alt='img'/>
-          </div>
-          <div className='hidden' id='main_background_seven'>
-            <Project6 />
-            <button className='project-close-button' onClick={handleCloseSix}>Close</button>
-          </div>
-          <div className='project-animation-left' id='project-animation-seven' data-aos='fade-left' data-aos-offset='300' onClick={handleProjectSevenClick}>
-            <p  style={{cursor:"pointer", fontSize:"22px"}} id='project-animation-idHolder'>7.SGPA/CGPA Calculator</p>
-            <img className='animation-each-image-left' src={require('../images/animation-preview7.png')} alt='img'/>
-          </div>
-          <div className='hidden' id='main_background_eight'>
-            <Project7 />
-            <button className='project-close-button' onClick={handleCloseSeven}>Close</button>
-          </div>
-          <div className='project-animation-right' id='project-animation-eight' data-aos='fade-right' data-aos-offset='300' onClick={handleProjectEightClick}>
-            <p  style={{cursor:"pointer", fontSize:"22px"}} id='project-animation-idHolder'>8.CSEdge Internship</p>
-            <img className='animation-each-image-right' src={require('../images/animation-preview8.png')} alt='img'/>
-          </div>
-          <div className='hidden' id='main_background_nine'>
-            <Project8 />
-            <button className='project-close-button' onClick={handleCloseEight}>Close</button>
-          </div>
-          <div className='project-animation-left' id='project-animation-nine' data-aos='fade-left' data-aos-offset='300' onClick={handleProjectNineClick}>
-            <p  style={{cursor:"pointer", fontSize:"22px"}} id='project-animation-idHolder'>9.Tourism and Hospitality</p>
-            <img className='animation-each-image-left' src={require('../images/animation-preview9.png')} alt='img'/>
-          </div>
-          <div className='hidden' id='main_background_ten'>
-            <Project9 />
-            <button className='project-close-button' onClick={handleCloseNine}>Close</button>
-          </div>
-          <div className='project-animation-right' id='project-animation-ten' data-aos='fade-right' data-aos-offset='300' onClick={handleProjectTenClick}>
-            <p  style={{cursor:"pointer", fontSize:"22px"}} id='project-animation-idHolder'>10.Swecha Internship</p>
-            <img className='animation-each-image-right' src={require('../images/animation-preview10.png')} alt='img'/>
-          </div>
-          <div className='hidden' id='main_background_eleven'>
-            <Project10 />
-            <button className='project-close-button' onClick={handleCloseTen}>Close</button>
-          </div>
+          <section id='homeSection'>
+            <div className='main-background-one'>
+              <div className='main-background-nav'>
+                <a href='#homeSection'><button className='main-background-nav-button'>Home</button></a>
+                <a href='#projectSection'><button className='main-background-nav-button'>Projects</button></a>
+                <a href='#aboutSection'><button className='main-background-nav-button'>About</button></a>
+              </div>
+              <WordAnimation/>
+              <div className='main-background-line' id='main_background_line'></div>
+            </div>
+          </section>
+          <section id='projectSection'>
 
+            <div className='project-animation-left' id='project-animation-one' data-aos='fade-left' data-aos-offset='300' onClick={handleProjectOneClick} style={{marginTop:"0px"}}>
+              <p  style={{cursor:"pointer", fontSize:"22px"}} id='project-animation-idHolder'>1.Movie TV Show Recommendation</p>
+              <img className='animation-each-image-left' src={require('../images/animation-preview1.png')} alt='img'/>
+            </div>
+            <div className='hidden' id='main_background_two'>
+              <Project1 />
+              <button className='project-close-button' onClick={handleCloseOne}>Close</button>
+            </div>
+            <div className='project-animation-right' id='project-animation-two' data-aos='fade-right' data-aos-offset='300' onClick={handleProjectTwoClick}>
+              <p  style={{cursor:"pointer", fontSize:"22px"}} id='project-animation-idHolder'>2.Todo List</p>
+              <img className='animation-each-image-right' src={require('../images/animation-preview2.png')} alt='img'/>
+            </div>
+            <div className='hidden' id='main_background_three'>
+              <Project2 />
+              <button className='project-close-button' onClick={handleCloseTwo}>Close</button>
+            </div>
+            <div className='project-animation-left' id='project-animation-three' data-aos='fade-left' data-aos-offset='300' onClick={handleProjectThreeClick}>
+              <p  style={{cursor:"pointer", fontSize:"22px"}} id='project-animation-idHolder'>3.Product Adverstising</p>
+              <img className='animation-each-image-left' src={require('../images/animation-preview3.png')} alt='img'/>
+            </div>
+            <div className='hidden' id='main_background_four'>
+              <Project3 />
+              <button className='project-close-button' onClick={handleCloseThree}>Close</button>
+            </div>
+            <div className='project-animation-right' id='project-animation-four' data-aos='fade-right' data-aos-offset='300' onClick={handleProjectFourClick}>
+              <p  style={{cursor:"pointer", fontSize:"22px"}} id='project-animation-idHolder'>4.Weather Forecast</p>
+              <img className='animation-each-image-right' src={require('../images/animation-preview4.png')} alt='img'/>
+            </div>
+            <div className='hidden' id='main_background_five'>
+              <Project4 />
+              <button className='project-close-button' onClick={handleCloseFour}>Close</button>
+            </div>
+            <div className='project-animation-left' id='project-animation-five' data-aos='fade-left' data-aos-offset='300' onClick={handleProjectFiveClick}>
+              <p  style={{cursor:"pointer", fontSize:"22px"}} id='project-animation-idHolder'>5.Chatting Bot</p>
+              <img className='animation-each-image-left' src={require('../images/animation-preview5.png')} alt='img'/>
+            </div>
+            <div className='hidden' id='main_background_six'>
+              <Project5 />
+              <button className='project-close-button' onClick={handleCloseFive}>Close</button>
+            </div>
+            <div className='project-animation-right' id='project-animation-six' data-aos='fade-right' data-aos-offset='300' onClick={handleProjectSixClick}>
+              <p  style={{cursor:"pointer", fontSize:"22px"}} id='project-animation-idHolder'>6.ATM</p>
+              <img className='animation-each-image-right' src={require('../images/animation-preview6.png')} alt='img'/>
+            </div>
+            <div className='hidden' id='main_background_seven'>
+              <Project6 />
+              <button className='project-close-button' onClick={handleCloseSix}>Close</button>
+            </div>
+            <div className='project-animation-left' id='project-animation-seven' data-aos='fade-left' data-aos-offset='300' onClick={handleProjectSevenClick}>
+              <p  style={{cursor:"pointer", fontSize:"22px"}} id='project-animation-idHolder'>7.SGPA/CGPA Calculator</p>
+              <img className='animation-each-image-left' src={require('../images/animation-preview7.png')} alt='img'/>
+            </div>
+            <div className='hidden' id='main_background_eight'>
+              <Project7 />
+              <button className='project-close-button' onClick={handleCloseSeven}>Close</button>
+            </div>
+            <div className='project-animation-right' id='project-animation-eight' data-aos='fade-right' data-aos-offset='300' onClick={handleProjectEightClick}>
+              <p  style={{cursor:"pointer", fontSize:"22px"}} id='project-animation-idHolder'>8.CSEdge Internship</p>
+              <img className='animation-each-image-right' src={require('../images/animation-preview8.png')} alt='img'/>
+            </div>
+            <div className='hidden' id='main_background_nine'>
+              <Project8 />
+              <button className='project-close-button' onClick={handleCloseEight}>Close</button>
+            </div>
+            <div className='project-animation-left' id='project-animation-nine' data-aos='fade-left' data-aos-offset='300' onClick={handleProjectNineClick}>
+              <p  style={{cursor:"pointer", fontSize:"22px"}} id='project-animation-idHolder'>9.Tourism and Hospitality</p>
+              <img className='animation-each-image-left' src={require('../images/animation-preview9.png')} alt='img'/>
+            </div>
+            <div className='hidden' id='main_background_ten'>
+              <Project9 />
+              <button className='project-close-button' onClick={handleCloseNine}>Close</button>
+            </div>
+            <div className='project-animation-right' id='project-animation-ten' data-aos='fade-right' data-aos-offset='300' onClick={handleProjectTenClick}>
+              <p  style={{cursor:"pointer", fontSize:"22px"}} id='project-animation-idHolder'>10.Swecha Internship</p>
+              <img className='animation-each-image-right' src={require('../images/animation-preview10.png')} alt='img'/>
+            </div>
+            <div className='hidden' id='main_background_eleven'>
+              <Project10 />
+              <button className='project-close-button' onClick={handleCloseTen}>Close</button>
+            </div>
+
+          </section>
+          <section id='aboutSection'></section>
           <footer className='footer'>
             <p><a href="https://github.com/AzmatullaKhan">Copyright © All Rights Reserved 2024 Azmatulla Khan ®</a></p>
           </footer>

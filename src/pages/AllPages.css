@@ -19,6 +19,42 @@
     padding: 0px 80px;
     z-index: 9;
 }
+
+.main-background-nav{
+    position:fixed;
+    top:0;
+    width:1492px;
+    height:80px;
+    box-sizing: border-box;
+    text-align: center;
+    z-index: 10;
+    backdrop-filter: blur(6px);
+    padding: 20px 0px;
+}
+
+.main-background-nav-button{
+    height:40px;
+    width:120px;
+    background-color: #000;
+    color: #fff;
+    outline: none;
+    border: 1px solid #fff;
+    text-decoration: none;
+    margin: 0px 30px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    border-top:5px solid
+}
+.main-background-nav-button:active{
+    background-color: #fff;
+    color: #000;
+}
+.main-background-nav-button:hover{
+    background-color: #fff;
+    color: #000;
+    border: #fff;
+}
+
 .main-background-line{
     height:3300px;
     width:2px;
