@@ -200,6 +200,7 @@ export const Main=()=>{
                 <a href='#homeSection'><button className='main-background-nav-button'>Home</button></a>
                 <a href='#projectSection'><button className='main-background-nav-button'>Projects</button></a>
                 <a href='#aboutSection'><button className='main-background-nav-button'>About</button></a>
+                <a href='#resumeSection'><button className='main-background-nav-button'>Resume</button></a>
               </div>
               <WordAnimation/>
               <div className='main-background-line' id='main_background_line'></div>
@@ -207,7 +208,8 @@ export const Main=()=>{
           </section>
 
           <section id='projectSection'>
-            <div><br></br><br></br><br></br><br></br></div>
+            <div><br></br><br></br><br></br><br></br><br></br></div>
+            <h2 style={{margin:"0px 0px 0px 400px", textDecoration:"underline"}}>Projects</h2>
             <div className='project-animation-left' id='project-animation-one' data-aos='fade-left' data-aos-offset='300' onClick={handleProjectOneClick} style={{marginTop:"0px"}}>
               <p  style={{cursor:"pointer", fontSize:"22px"}} id='project-animation-idHolder'>1.Movie TV Show Recommendation</p>
               <img className='animation-each-image-left' src={require('../images/animation-preview1.png')} alt='img'/>
@@ -292,14 +294,14 @@ export const Main=()=>{
           </section>
           
           <section id='aboutSection'>
-            <div className='aboutSection-container'><br></br><br></br>
+            <div className='aboutSection-container' data-aos='fade-down' data-aos-offset="500"><br></br><br></br><br></br>
                 <strong style={{textDecoration:"underline"}}>Personal Info</strong>
                 I am Azmatulla Khan, a passionate 20-year-old pursuing my
                 academic(B.Tech Computer Science) journey at KL University, Vaddeswaram.
                 With a burning enthusiasm for technology, I'm deeply immersed in the world
                 of Full Stack Development and Software DevOps.
                 Feel free to reach out to me and I'm always eager to connect, collaborate, and embark on new adventures
-                within the vast realm of technology.<span style={{color:"gray", fontWeight:"bolder", textDecoration:"none"}}>azmatpersonal@gmail.com</span><br></br>
+                within the vast realm of technology.<span style={{color:"gray", fontWeight:"bolder", textDecoration:"none"}}>2200031618cseh@gmail.com</span><br></br>
                 <strong style={{textDecoration:"underline"}}>skills</strong>
                 <p style={{margin:"0px", width:"550px", display:"flex", justifyContent:"space-between"}}><span style={{textDecoration:"none"}}>REACT JS, Node JS ,Express JS, Mongoose</span><span style={{textDecoration:"none"}}>⭐⭐⭐⭐</span></p>
                 <p style={{margin:"0px", width:"550px", display:"flex", justifyContent:"space-between"}}><span style={{textDecoration:"none"}}>Python, Django, PSQL </span><span style={{textDecoration:"none"}}>⭐⭐⭐⭐</span></p>
@@ -317,6 +319,12 @@ export const Main=()=>{
                   <a rel="noreferrer" target={"_blank"} href='https://www.hackerrank.com/profile/klu_2200031618'><img src={require('../images/logos/github.png')} alt='github' style={{height:"60px", width:"60px", borderRadius:"30px", margin:"0px 12px"}}/></a>
                   <a rel="noreferrer" target={"_blank"} href='https://github.com/AzmatullaKhan'><img src={require('../images/logos/linkedIn.png')} alt='linkedIn' style={{height:"60px", width:"60px", borderRadius:"30px", margin:"0px 12px"}}/></a>
                 </div>
+            </div>
+          </section>
+
+          <section id='resumeSection'>
+            <div className='resumeSection-container' data-aos='fade-down' data-aos-offset="400">
+              <img src={require('../files/resume.png')} className='resumeSection-resume' alt='resume'/>
             </div>
           </section>
 

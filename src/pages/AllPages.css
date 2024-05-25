@@ -241,6 +241,24 @@ a{
     text-align: center;
 }
 
+.resumeSection-container{
+    height:842px;
+    width:1492px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px 60px;
+    line-height: 32px;
+    text-align: center;
+}
+.resumeSection-resume{
+    height:800px;
+    width:600px;
+    background-size: cover;
+}
+
 footer{
     width:100%;
     text-align: center;
