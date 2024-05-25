@@ -205,6 +205,7 @@ export const Main=()=>{
               <div className='main-background-line' id='main_background_line'></div>
             </div>
           </section>
+
           <section id='projectSection'>
             <div><br></br><br></br><br></br><br></br></div>
             <div className='project-animation-left' id='project-animation-one' data-aos='fade-left' data-aos-offset='300' onClick={handleProjectOneClick} style={{marginTop:"0px"}}>
@@ -289,7 +290,36 @@ export const Main=()=>{
             </div>
 
           </section>
-          <section id='aboutSection'></section>
+          
+          <section id='aboutSection'>
+            <div className='aboutSection-container'><br></br><br></br>
+                <strong style={{textDecoration:"underline"}}>Personal Info</strong>
+                I am Azmatulla Khan, a passionate 20-year-old pursuing my
+                academic(B.Tech Computer Science) journey at KL University, Vaddeswaram.
+                With a burning enthusiasm for technology, I'm deeply immersed in the world
+                of Full Stack Development and Software DevOps.
+                Feel free to reach out to me and I'm always eager to connect, collaborate, and embark on new adventures
+                within the vast realm of technology.<span style={{color:"gray", fontWeight:"bolder", textDecoration:"none"}}>azmatpersonal@gmail.com</span><br></br>
+                <strong style={{textDecoration:"underline"}}>skills</strong>
+                <p style={{margin:"0px", width:"550px", display:"flex", justifyContent:"space-between"}}><span style={{textDecoration:"none"}}>REACT JS, Node JS ,Express JS, Mongoose</span><span style={{textDecoration:"none"}}>⭐⭐⭐⭐</span></p>
+                <p style={{margin:"0px", width:"550px", display:"flex", justifyContent:"space-between"}}><span style={{textDecoration:"none"}}>Python, Django, PSQL </span><span style={{textDecoration:"none"}}>⭐⭐⭐⭐</span></p>
+                <p style={{margin:"0px", width:"550px", display:"flex", justifyContent:"space-between"}}><span style={{textDecoration:"none"}}>HTML, CSS, Java Script</span><span style={{textDecoration:"none"}}>⭐⭐⭐⭐⭐</span></p>
+                <p style={{margin:"0px", width:"550px", display:"flex", justifyContent:"space-between"}}><span style={{textDecoration:"none"}}>Java and C Programming languages</span><span style={{textDecoration:"none"}}>⭐⭐⭐⭐</span></p><br></br>
+                <strong style={{textDecoration:"underline"}}>Academic History</strong>
+                X Class CBSE | 2019- 2020 | Percentage Scored: 79.9<br></br>
+                Delhi Public School(INTERMEDIATE- MPC) | 2020- 2022 | Percentage Scored: 90.1%<br></br>
+                KL University(Bachelors in Computer Science)| 2022 - 2026 | Current CGPA: 9.56<br></br><br></br>
+                <strong style={{textDecoration:"underline"}}>Profiles</strong>
+                <div style={{margin:"20px 0px", width:"300px", display:"flex", justifyContent:"center"}}>
+                  <a rel="noreferrer" target={"_blank"} href='https://leetcode.com/u/klu_2200031618/'><img src={require('../images/logos/LeetCode.png')} alt='leetcode' style={{height:"60px", width:"60px", borderRadius:"30px", margin:"0px 12px"}}/></a>
+                  <a rel="noreferrer" target={"_blank"} href='https://www.codechef.com/users/klu_2200031618'><img src={require('../images/logos/codechef.jpg')} alt='codechef' style={{height:"60px", width:"60px", borderRadius:"30px", margin:"0px 12px"}}/></a>
+                  <a rel="noreferrer" target={"_blank"} href='https://www.hackerrank.com/profile/klu_2200031618'><img src={require('../images/logos/hackerrank.png')} alt='hackerrank' style={{height:"60px", width:"60px", borderRadius:"30px", margin:"0px 12px"}}/></a>
+                  <a rel="noreferrer" target={"_blank"} href='https://www.hackerrank.com/profile/klu_2200031618'><img src={require('../images/logos/github.png')} alt='github' style={{height:"60px", width:"60px", borderRadius:"30px", margin:"0px 12px"}}/></a>
+                  <a rel="noreferrer" target={"_blank"} href='https://github.com/AzmatullaKhan'><img src={require('../images/logos/linkedIn.png')} alt='linkedIn' style={{height:"60px", width:"60px", borderRadius:"30px", margin:"0px 12px"}}/></a>
+                </div>
+            </div>
+          </section>
+
           <footer className='footer'>
             <p><a href="https://github.com/AzmatullaKhan">Copyright © All Rights Reserved 2024 Azmatulla Khan ®</a></p>
           </footer>
