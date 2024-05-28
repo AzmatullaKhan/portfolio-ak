@@ -2,6 +2,7 @@
     /* min-height:4000px; */
     max-height: auto;
     width:1492px;
+    padding: 20px 0px;
     background-color: #101111;
     overflow-x: hidden;
 }
@@ -56,7 +57,7 @@
 }
 
 .main-background-line{
-    height:3300px;
+    height:3600px;
     width:2px;
     padding: 1px;
     position: absolute;

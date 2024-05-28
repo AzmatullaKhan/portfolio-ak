@@ -12,6 +12,7 @@ import { Project7 } from './project7';
 import { Project8 } from './project8';
 import { Project9 } from './project9';
 import { Project10 } from './project10';
+import { Project11 } from './project11';
 
 
 export const Main=()=>{
@@ -69,64 +70,70 @@ export const Main=()=>{
       const handleProjectOneClick=()=>{
         document.getElementById('project-animation-one').className='hidden'
         document.getElementById('main_background_two').className='main-background-project-left'
-        document.getElementById('main_background_line').style.minHeight=3300+(clicks_project*560)+'px'
+        document.getElementById('main_background_line').style.minHeight=3600+(clicks_project*560)+'px'
         clicks_project+=1
       }
 
       const handleProjectTwoClick=()=>{
         document.getElementById('project-animation-two').className='hidden'
         document.getElementById('main_background_three').className='main-background-project-right'
-        document.getElementById('main_background_line').style.minHeight=3300+(clicks_project*560)+'px'
+        document.getElementById('main_background_line').style.minHeight=3600+(clicks_project*560)+'px'
         clicks_project+=1
       }
 
       const handleProjectThreeClick=()=>{
         document.getElementById('project-animation-three').className='hidden'
         document.getElementById('main_background_four').className='main-background-project-left'
-        document.getElementById('main_background_line').style.minHeight=3300+(clicks_project*560)+'px'
+        document.getElementById('main_background_line').style.minHeight=3600+(clicks_project*560)+'px'
         clicks_project+=1
       }
 
       const handleProjectFourClick=()=>{
         document.getElementById('project-animation-four').className='hidden'
         document.getElementById('main_background_five').className='main-background-project-right'
-        document.getElementById('main_background_line').style.minHeight=3300+(clicks_project*560)+'px'
+        document.getElementById('main_background_line').style.minHeight=3600+(clicks_project*560)+'px'
         clicks_project+=1
       }
       const handleProjectFiveClick=()=>{
         document.getElementById('project-animation-five').className='hidden'
         document.getElementById('main_background_six').className='main-background-project-left'
-        document.getElementById('main_background_line').style.minHeight=3300+(clicks_project*560)+'px'
+        document.getElementById('main_background_line').style.minHeight=3600+(clicks_project*560)+'px'
         clicks_project+=1
       }
       const handleProjectSixClick=()=>{
         document.getElementById('project-animation-six').className='hidden'
         document.getElementById('main_background_seven').className='main-background-project-right'
-        document.getElementById('main_background_line').style.minHeight=3300+(clicks_project*560)+'px'
+        document.getElementById('main_background_line').style.minHeight=3600+(clicks_project*560)+'px'
         clicks_project+=1
       }
       const handleProjectSevenClick=()=>{
         document.getElementById('project-animation-seven').className='hidden'
         document.getElementById('main_background_eight').className='main-background-project-left'
-        document.getElementById('main_background_line').style.minHeight=3300+(clicks_project*560)+'px'
+        document.getElementById('main_background_line').style.minHeight=3600+(clicks_project*560)+'px'
         clicks_project+=1
       }
       const handleProjectEightClick=()=>{
         document.getElementById('project-animation-eight').className='hidden'
         document.getElementById('main_background_nine').className='main-background-project-right'
-        document.getElementById('main_background_line').style.minHeight=3300+(clicks_project*560)+'px'
+        document.getElementById('main_background_line').style.minHeight=3600+(clicks_project*560)+'px'
         clicks_project+=1
       }
       const handleProjectNineClick=()=>{
         document.getElementById('project-animation-nine').className='hidden'
         document.getElementById('main_background_ten').className='main-background-project-left'
-        document.getElementById('main_background_line').style.minHeight=3300+(clicks_project*560)+'px'
+        document.getElementById('main_background_line').style.minHeight=3600+(clicks_project*560)+'px'
         clicks_project+=1
       }
       const handleProjectTenClick=()=>{
         document.getElementById('project-animation-ten').className='hidden'
         document.getElementById('main_background_eleven').className='main-background-project-right'
-        document.getElementById('main_background_line').style.minHeight=3300+(clicks_project*560)+'px'
+        document.getElementById('main_background_line').style.minHeight=3600+(clicks_project*560)+'px'
+        clicks_project+=1
+      }
+      const handleProjectElevenClick=()=>{
+        document.getElementById('project-animation-eleven').className='hidden'
+        document.getElementById('main_background_twelve').className='main-background-project-left'
+        document.getElementById('main_background_line').style.minHeight=3600+(clicks_project*560)+'px'
         clicks_project+=1
       }
 
@@ -134,63 +141,69 @@ export const Main=()=>{
         document.getElementById('project-animation-one').className='project-animation-left'
         document.getElementById('main_background_two').className='hidden'
         clicks_project-=1
-        document.getElementById('main_background_line').style.minHeight=3300+(clicks_project*560)-560+'px'
+        document.getElementById('main_background_line').style.minHeight=3600+(clicks_project*560)-560+'px'
       }
 
       const handleCloseTwo=()=>{
         document.getElementById('project-animation-two').className='project-animation-right'
         document.getElementById('main_background_three').className='hidden'
         clicks_project-=1
-        document.getElementById('main_background_line').style.minHeight=3300+(clicks_project*560)-560+'px'
+        document.getElementById('main_background_line').style.minHeight=3600+(clicks_project*560)-560+'px'
       }
 
       const handleCloseThree=()=>{
         document.getElementById('project-animation-three').className='project-animation-left'
         document.getElementById('main_background_four').className='hidden'
         clicks_project-=1
-        document.getElementById('main_background_line').style.minHeight=3300+(clicks_project*560)-560+'px'
+        document.getElementById('main_background_line').style.minHeight=3600+(clicks_project*560)-560+'px'
       }
       const handleCloseFour=()=>{
         document.getElementById('project-animation-four').className='project-animation-right'
         document.getElementById('main_background_five').className='hidden'
         clicks_project-=1
-        document.getElementById('main_background_line').style.minHeight=3300+(clicks_project*560)-560+'px'
+        document.getElementById('main_background_line').style.minHeight=3600+(clicks_project*560)-560+'px'
       }
       const handleCloseFive=()=>{
         document.getElementById('project-animation-five').className='project-animation-left'
         document.getElementById('main_background_six').className='hidden'
         clicks_project-=1
-        document.getElementById('main_background_line').style.minHeight=3300+(clicks_project*560)-560+'px'
+        document.getElementById('main_background_line').style.minHeight=3600+(clicks_project*560)-560+'px'
       }
       const handleCloseSix=()=>{
         document.getElementById('project-animation-six').className='project-animation-right'
         document.getElementById('main_background_seven').className='hidden'
         clicks_project-=1
-        document.getElementById('main_background_line').style.minHeight=3300+(clicks_project*560)-560+'px'
+        document.getElementById('main_background_line').style.minHeight=3600+(clicks_project*560)-560+'px'
       }
       const handleCloseSeven=()=>{
         document.getElementById('project-animation-seven').className='project-animation-left'
         document.getElementById('main_background_eight').className='hidden'
         clicks_project-=1
-        document.getElementById('main_background_line').style.minHeight=3300+(clicks_project*560)-560+'px'
+        document.getElementById('main_background_line').style.minHeight=3600+(clicks_project*560)-560+'px'
       }
       const handleCloseEight=()=>{
         document.getElementById('project-animation-eight').className='project-animation-right'
         document.getElementById('main_background_nine').className='hidden'
         clicks_project-=1
-        document.getElementById('main_background_line').style.minHeight=3300+(clicks_project*560)-560+'px'
+        document.getElementById('main_background_line').style.minHeight=3600+(clicks_project*560)-560+'px'
       }
       const handleCloseNine=()=>{
         document.getElementById('project-animation-nine').className='project-animation-left'
         document.getElementById('main_background_ten').className='hidden'
         clicks_project-=1
-        document.getElementById('main_background_line').style.minHeight=3300+(clicks_project*560)-560+'px'
+        document.getElementById('main_background_line').style.minHeight=3600+(clicks_project*560)-560+'px'
       }
       const handleCloseTen=()=>{
         document.getElementById('project-animation-ten').className='project-animation-right'
         document.getElementById('main_background_eleven').className='hidden'
         clicks_project-=1
-        document.getElementById('main_background_line').style.minHeight=3300+(clicks_project*560)-560+'px'
+        document.getElementById('main_background_line').style.minHeight=3600+(clicks_project*560)-560+'px'
+      }
+      const handleCloseEleven=()=>{
+        document.getElementById('project-animation-eleven').className='project-animation-left'
+        document.getElementById('main_background_twelve').className='hidden'
+        clicks_project-=1
+        document.getElementById('main_background_line').style.minHeight=3600+(clicks_project*560)-560+'px'
       }
     return(
         <div className='main-background'>
@@ -205,7 +218,7 @@ export const Main=()=>{
               <WordAnimation/>
               <div className='main-background-line' id='main_background_line'></div>
             </div>
-          </section>
+          </section><br></br>
 
           <section id='projectSection'>
             <div><br></br><br></br><br></br><br></br><br></br></div>
@@ -290,8 +303,16 @@ export const Main=()=>{
               <Project10 />
               <button className='project-close-button' onClick={handleCloseTen}>Close</button>
             </div>
+            <div className='project-animation-left' id='project-animation-eleven' data-aos='fade-left' data-aos-offset='300' onClick={handleProjectElevenClick}>
+              <p  style={{cursor:"pointer", fontSize:"22px"}} id='project-animation-idHolder'>11. Calculator</p>
+              <img className='animation-each-image-right' src={require('../images/animation-preview11.png')} alt='img'/>
+            </div>
+            <div className='hidden' id='main_background_twelve'>
+              <Project11 />
+              <button className='project-close-button' onClick={handleCloseEleven}>Close</button>
+            </div>
 
-          </section>
+          </section><br></br>
           
           <section id='aboutSection'>
             <div className='aboutSection-container' data-aos='fade-down' data-aos-offset="500"><br></br><br></br><br></br>
@@ -320,7 +341,7 @@ export const Main=()=>{
                   <a rel="noreferrer" target={"_blank"} href='https://github.com/AzmatullaKhan'><img src={require('../images/logos/linkedIn.png')} alt='linkedIn' style={{height:"60px", width:"60px", borderRadius:"30px", margin:"0px 12px"}}/></a>
                 </div>
             </div>
-          </section>
+          </section><br></br>
 
           <section id='resumeSection'>
             <div className='resumeSection-container' data-aos='fade-down' data-aos-offset="400"><br></br>
