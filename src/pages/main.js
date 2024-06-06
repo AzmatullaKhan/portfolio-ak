@@ -225,7 +225,7 @@ export const Main=()=>{
             <h2 style={{margin:"0px 0px 0px 400px", textDecoration:"underline"}}  data-aos='fade-down' data-aos-offset="300">Projects</h2>
             <div className='project-animation-left' id='project-animation-one' data-aos='fade-left' data-aos-offset='300' onClick={handleProjectOneClick} style={{marginTop:"0px"}}>
               <p  style={{cursor:"pointer", fontSize:"22px"}} id='project-animation-idHolder'>1.Movie TV Show Recommendation</p>
-              <img className='animation-each-image-left' src={require('../images/animation-preview1.png')} alt='img'/>
+              <img className='animation-each-image-left' src={require('../images/animation_folder/animation-preview1.png')} alt='img'/>
             </div>
             <div className='hidden' id='main_background_two'>
               <Project1 />
@@ -233,7 +233,7 @@ export const Main=()=>{
             </div>
             <div className='project-animation-right' id='project-animation-two' data-aos='fade-right' data-aos-offset='300' onClick={handleProjectTwoClick}>
               <p  style={{cursor:"pointer", fontSize:"22px"}} id='project-animation-idHolder'>2.Todo List</p>
-              <img className='animation-each-image-right' src={require('../images/animation-preview2.png')} alt='img'/>
+              <img className='animation-each-image-right' src={require('../images/animation_folder/animation-preview2.png')} alt='img'/>
             </div>
             <div className='hidden' id='main_background_three'>
               <Project2 />
@@ -241,7 +241,7 @@ export const Main=()=>{
             </div>
             <div className='project-animation-left' id='project-animation-three' data-aos='fade-left' data-aos-offset='300' onClick={handleProjectThreeClick}>
               <p  style={{cursor:"pointer", fontSize:"22px"}} id='project-animation-idHolder'>3.Product Adverstising</p>
-              <img className='animation-each-image-left' src={require('../images/animation-preview3.png')} alt='img'/>
+              <img className='animation-each-image-left' src={require('../images/animation_folder/animation-preview3.png')} alt='img'/>
             </div>
             <div className='hidden' id='main_background_four'>
               <Project3 />
@@ -249,7 +249,7 @@ export const Main=()=>{
             </div>
             <div className='project-animation-right' id='project-animation-four' data-aos='fade-right' data-aos-offset='300' onClick={handleProjectFourClick}>
               <p  style={{cursor:"pointer", fontSize:"22px"}} id='project-animation-idHolder'>4.Weather Forecast</p>
-              <img className='animation-each-image-right' src={require('../images/animation-preview4.png')} alt='img'/>
+              <img className='animation-each-image-right' src={require('../images/animation_folder/animation-preview4.png')} alt='img'/>
             </div>
             <div className='hidden' id='main_background_five'>
               <Project4 />
@@ -257,7 +257,7 @@ export const Main=()=>{
             </div>
             <div className='project-animation-left' id='project-animation-five' data-aos='fade-left' data-aos-offset='300' onClick={handleProjectFiveClick}>
               <p  style={{cursor:"pointer", fontSize:"22px"}} id='project-animation-idHolder'>5.Chatting Bot</p>
-              <img className='animation-each-image-left' src={require('../images/animation-preview5.png')} alt='img'/>
+              <img className='animation-each-image-left' src={require('../images/animation_folder/animation-preview5.png')} alt='img'/>
             </div>
             <div className='hidden' id='main_background_six'>
               <Project5 />
@@ -265,7 +265,7 @@ export const Main=()=>{
             </div>
             <div className='project-animation-right' id='project-animation-six' data-aos='fade-right' data-aos-offset='300' onClick={handleProjectSixClick}>
               <p  style={{cursor:"pointer", fontSize:"22px"}} id='project-animation-idHolder'>6.ATM</p>
-              <img className='animation-each-image-right' src={require('../images/animation-preview6.png')} alt='img'/>
+              <img className='animation-each-image-right' src={require('../images/animation_folder/animation-preview6.png')} alt='img'/>
             </div>
             <div className='hidden' id='main_background_seven'>
               <Project6 />
@@ -273,7 +273,7 @@ export const Main=()=>{
             </div>
             <div className='project-animation-left' id='project-animation-seven' data-aos='fade-left' data-aos-offset='300' onClick={handleProjectSevenClick}>
               <p  style={{cursor:"pointer", fontSize:"22px"}} id='project-animation-idHolder'>7.SGPA/CGPA Calculator</p>
-              <img className='animation-each-image-left' src={require('../images/animation-preview7.png')} alt='img'/>
+              <img className='animation-each-image-left' src={require('../images/animation_folder/animation-preview7.png')} alt='img'/>
             </div>
             <div className='hidden' id='main_background_eight'>
               <Project7 />
@@ -281,7 +281,7 @@ export const Main=()=>{
             </div>
             <div className='project-animation-right' id='project-animation-eight' data-aos='fade-right' data-aos-offset='300' onClick={handleProjectEightClick}>
               <p  style={{cursor:"pointer", fontSize:"22px"}} id='project-animation-idHolder'>8.CSEdge Internship</p>
-              <img className='animation-each-image-right' src={require('../images/animation-preview8.png')} alt='img'/>
+              <img className='animation-each-image-right' src={require('../images/animation_folder/animation-preview8.png')} alt='img'/>
             </div>
             <div className='hidden' id='main_background_nine'>
               <Project8 />
@@ -289,7 +289,7 @@ export const Main=()=>{
             </div>
             <div className='project-animation-left' id='project-animation-nine' data-aos='fade-left' data-aos-offset='300' onClick={handleProjectNineClick}>
               <p  style={{cursor:"pointer", fontSize:"22px"}} id='project-animation-idHolder'>9.Tourism and Hospitality</p>
-              <img className='animation-each-image-left' src={require('../images/animation-preview9.png')} alt='img'/>
+              <img className='animation-each-image-left' src={require('../images/animation_folder/animation-preview9.png')} alt='img'/>
             </div>
             <div className='hidden' id='main_background_ten'>
               <Project9 />
@@ -297,7 +297,7 @@ export const Main=()=>{
             </div>
             <div className='project-animation-right' id='project-animation-ten' data-aos='fade-right' data-aos-offset='300' onClick={handleProjectTenClick}>
               <p  style={{cursor:"pointer", fontSize:"22px"}} id='project-animation-idHolder'>10.Swecha Internship</p>
-              <img className='animation-each-image-right' src={require('../images/animation-preview10.png')} alt='img'/>
+              <img className='animation-each-image-right' src={require('../images/animation_folder/animation-preview10.png')} alt='img'/>
             </div>
             <div className='hidden' id='main_background_eleven'>
               <Project10 />
@@ -305,7 +305,7 @@ export const Main=()=>{
             </div>
             <div className='project-animation-left' id='project-animation-eleven' data-aos='fade-left' data-aos-offset='300' onClick={handleProjectElevenClick}>
               <p  style={{cursor:"pointer", fontSize:"22px"}} id='project-animation-idHolder'>11. Calculator</p>
-              <img className='animation-each-image-right' src={require('../images/animation-preview11.png')} alt='img'/>
+              <img className='animation-each-image-right' src={require('../images/animation_folder/animation-preview11.png')} alt='img'/>
             </div>
             <div className='hidden' id='main_background_twelve'>
               <Project11 />

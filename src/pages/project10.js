@@ -14,10 +14,10 @@ export const Project10=()=>{
             <a rel="noreferrer" target={"_blank"} href="https://github.com/AzmatullaKhan/Internship_Swecha-Project">👉Github👈</a>
             <div className="project-images">
                 <div style={{display:"flex", overflow:"scroll"}}>
-                    <a rel="noreferrer" target={"_blank"} href={require('../images/preview10-img1.png')}><img src={require('../images/preview10-img1.png')} alt='preview1-img' className='project-each-image'/></a>
-                    <a rel="noreferrer" target={"_blank"} href={require('../images/preview10-img2.png')}><img src={require('../images/preview10-img2.png')} alt='preview2-img' className='project-each-image'/></a>
-                    <a rel="noreferrer" target={"_blank"} href={require('../images/preview10-img3.png')}><img src={require('../images/preview10-img3.png')} alt='preview3-img' className='project-each-image'/></a>
-                    <a rel="noreferrer" target={"_blank"} href={require('../images/preview10-img4.png')}><img src={require('../images/preview10-img4.png')} alt='preview4-img' className='project-each-image'/></a>
+                    <a rel="noreferrer" target={"_blank"} href={require('../images/preview10/preview10-img1.png')}><img src={require('../images/preview10/preview10-img1.png')} alt='preview1-img' className='project-each-image'/></a>
+                    <a rel="noreferrer" target={"_blank"} href={require('../images/preview10/preview10-img2.png')}><img src={require('../images/preview10/preview10-img2.png')} alt='preview2-img' className='project-each-image'/></a>
+                    <a rel="noreferrer" target={"_blank"} href={require('../images/preview10/preview10-img3.png')}><img src={require('../images/preview10/preview10-img3.png')} alt='preview3-img' className='project-each-image'/></a>
+                    <a rel="noreferrer" target={"_blank"} href={require('../images/preview10/preview10-img4.png')}><img src={require('../images/preview10/preview10-img4.png')} alt='preview4-img' className='project-each-image'/></a>
                 </div>
             </div>
         </>
