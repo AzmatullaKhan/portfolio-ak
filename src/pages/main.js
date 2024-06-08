@@ -214,6 +214,7 @@ export const Main=()=>{
                 <a href='#projectSection'><button className='main-background-nav-button'>Projects</button></a>
                 <a href='#aboutSection'><button className='main-background-nav-button'>About</button></a>
                 <a href='#resumeSection'><button className='main-background-nav-button'>Resume</button></a>
+                <a href='#certificatesSection'><button className='main-background-nav-button'>Certificates</button></a>
               </div>
               <WordAnimation/>
               <div className='main-background-line' id='main_background_line'></div>
@@ -346,6 +347,14 @@ export const Main=()=>{
           <section id='resumeSection'>
             <div className='resumeSection-container' data-aos='fade-down' data-aos-offset="400"><br></br>
               <a rel='noreferrer' target={'_blank'} href={require('../files/resume.pdf')}><img src={require('../files/resume.png')} className='resumeSection-resume' alt='resume'/></a>
+            </div>
+          </section>
+
+          <section id='certificatesSection'>
+            <div className='certificateSection-container' data-aos='fade-down' data-aos-offset="400"><br></br>
+              <a rel='noreferrer' target={'_blank'} href="https://api.accredible.com/v1/auth/invite?code=680eada31ffeccfc8424&credential_id=ada99758-285f-4b7e-91b5-14ba34f8e0f6&url=https%3A%2F%2Fcertificates.automationanywhere.com%2Fada99758-285f-4b7e-91b5-14ba34f8e0f6&ident=22787fea-920a-41ff-ae59-43cf0c079c8c">
+                <img src={require('../files/rpa.png')} className='certificateSection-certificate' alt='resume'/>
+              </a>
             </div>
           </section>
 

@@ -260,6 +260,30 @@ a{
     background-size: cover;
 }
 
+
+.certificateSection-container{
+    height:842px;
+    width:1492px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 60px;
+    line-height: 32px;
+    text-align: center;
+}
+.certificateSection-certificate{
+    margin-top: 40px;
+    height:800px;
+    width:600px;
+    border-radius: 12px;
+    background-size:cover;
+    /* transition: all 0.5s ease-out; */
+}
+/* .certificateSection-certificate:hover{
+    width:600px
+} */
+
 footer{
     width:100%;
     text-align: center;
