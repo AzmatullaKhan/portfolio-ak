@@ -32,6 +32,12 @@
     backdrop-filter: blur(6px);
     padding: 20px 0px;
 }
+.main-background-nav a{
+    outline: 1.5px solid #fff;
+    margin: 0px 12px;
+    outline-style:dashed;
+    border-radius: 3px;
+}
 
 .main-background-nav-button{
     height:40px;
