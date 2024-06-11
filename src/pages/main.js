@@ -13,6 +13,7 @@ import { Project8 } from './project8';
 import { Project9 } from './project9';
 import { Project10 } from './project10';
 import { Project11 } from './project11';
+import { Project12 } from './project12';
 
 
 export const Main=()=>{
@@ -136,6 +137,12 @@ export const Main=()=>{
         document.getElementById('main_background_line').style.minHeight=3600+(clicks_project*560)+'px'
         clicks_project+=1
       }
+      const handleProjectTwelveClick=()=>{
+        document.getElementById('project-animation-twelve').className='hidden'
+        document.getElementById('main_background_thirteen').className='main-background-project-right'
+        document.getElementById('main_background_line').style.minHeight=3600+(clicks_project*560)+'px'
+        clicks_project+=1
+      }
 
       const handleCloseOne=()=>{
         document.getElementById('project-animation-one').className='project-animation-left'
@@ -202,6 +209,12 @@ export const Main=()=>{
       const handleCloseEleven=()=>{
         document.getElementById('project-animation-eleven').className='project-animation-left'
         document.getElementById('main_background_twelve').className='hidden'
+        clicks_project-=1
+        document.getElementById('main_background_line').style.minHeight=3600+(clicks_project*560)-560+'px'
+      }
+      const handleCloseTwelve=()=>{
+        document.getElementById('project-animation-twelve').className='project-animation-right'
+        document.getElementById('main_background_thirteen').className='hidden'
         clicks_project-=1
         document.getElementById('main_background_line').style.minHeight=3600+(clicks_project*560)-560+'px'
       }
@@ -324,6 +337,15 @@ export const Main=()=>{
             <div className='hidden' id='main_background_twelve'>
               <Project11 />
               <button className='project-close-button' onClick={handleCloseEleven}>Close</button>
+            </div>
+
+            <div className='project-animation-right' id='project-animation-twelve' data-aos='fade-right' data-aos-offset='300' onClick={handleProjectTwelveClick}>
+              <p  style={{cursor:"pointer", fontSize:"22px"}} id='project-animation-idHolder'>12. Rock-Paper-Scissor</p>
+              <img className='animation-each-image-left' src={require('../images/animation_folder/animation-preview12.png')} alt='img'/>
+            </div>
+            <div className='hidden' id='main_background_thirteen'>
+              <Project12 />
+              <button className='project-close-button' onClick={handleCloseTwelve}>Close</button>
             </div>
 
           </section><br></br>
