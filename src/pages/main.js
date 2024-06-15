@@ -72,82 +72,82 @@ export const Main=()=>{
       const handleProjectOneClick=()=>{
         document.getElementById('project-animation-one').className='hidden'
         document.getElementById('main_background_two').className='main-background-project-left'
-        document.getElementById('main_background_line').style.minHeight=3600+(clicks_project*560)+'px'
+        document.getElementById('main_background_line').style.minHeight=4300+(clicks_project*560)+'px'
         clicks_project+=1
       }
 
       const handleProjectTwoClick=()=>{
         document.getElementById('project-animation-two').className='hidden'
         document.getElementById('main_background_three').className='main-background-project-right'
-        document.getElementById('main_background_line').style.minHeight=3600+(clicks_project*560)+'px'
+        document.getElementById('main_background_line').style.minHeight=4300+(clicks_project*560)+'px'
         clicks_project+=1
       }
 
       const handleProjectThreeClick=()=>{
         document.getElementById('project-animation-three').className='hidden'
         document.getElementById('main_background_four').className='main-background-project-left'
-        document.getElementById('main_background_line').style.minHeight=3600+(clicks_project*560)+'px'
+        document.getElementById('main_background_line').style.minHeight=4300+(clicks_project*560)+'px'
         clicks_project+=1
       }
 
       const handleProjectFourClick=()=>{
         document.getElementById('project-animation-four').className='hidden'
         document.getElementById('main_background_five').className='main-background-project-right'
-        document.getElementById('main_background_line').style.minHeight=3600+(clicks_project*560)+'px'
+        document.getElementById('main_background_line').style.minHeight=4300+(clicks_project*560)+'px'
         clicks_project+=1
       }
       const handleProjectFiveClick=()=>{
         document.getElementById('project-animation-five').className='hidden'
         document.getElementById('main_background_six').className='main-background-project-left'
-        document.getElementById('main_background_line').style.minHeight=3600+(clicks_project*560)+'px'
+        document.getElementById('main_background_line').style.minHeight=4300+(clicks_project*560)+'px'
         clicks_project+=1
       }
       const handleProjectSixClick=()=>{
         document.getElementById('project-animation-six').className='hidden'
         document.getElementById('main_background_seven').className='main-background-project-right'
-        document.getElementById('main_background_line').style.minHeight=3600+(clicks_project*560)+'px'
+        document.getElementById('main_background_line').style.minHeight=4300+(clicks_project*560)+'px'
         clicks_project+=1
       }
       const handleProjectSevenClick=()=>{
         document.getElementById('project-animation-seven').className='hidden'
         document.getElementById('main_background_eight').className='main-background-project-left'
-        document.getElementById('main_background_line').style.minHeight=3600+(clicks_project*560)+'px'
+        document.getElementById('main_background_line').style.minHeight=4300+(clicks_project*560)+'px'
         clicks_project+=1
       }
       const handleProjectEightClick=()=>{
         document.getElementById('project-animation-eight').className='hidden'
         document.getElementById('main_background_nine').className='main-background-project-right'
-        document.getElementById('main_background_line').style.minHeight=3600+(clicks_project*560)+'px'
+        document.getElementById('main_background_line').style.minHeight=4300+(clicks_project*560)+'px'
         clicks_project+=1
       }
       const handleProjectNineClick=()=>{
         document.getElementById('project-animation-nine').className='hidden'
         document.getElementById('main_background_ten').className='main-background-project-left'
-        document.getElementById('main_background_line').style.minHeight=3600+(clicks_project*560)+'px'
+        document.getElementById('main_background_line').style.minHeight=4300+(clicks_project*560)+'px'
         clicks_project+=1
       }
       const handleProjectTenClick=()=>{
         document.getElementById('project-animation-ten').className='hidden'
         document.getElementById('main_background_eleven').className='main-background-project-right'
-        document.getElementById('main_background_line').style.minHeight=3600+(clicks_project*560)+'px'
+        document.getElementById('main_background_line').style.minHeight=4300+(clicks_project*560)+'px'
         clicks_project+=1
       }
       const handleProjectElevenClick=()=>{
         document.getElementById('project-animation-eleven').className='hidden'
         document.getElementById('main_background_twelve').className='main-background-project-left'
-        document.getElementById('main_background_line').style.minHeight=3600+(clicks_project*560)+'px'
+        document.getElementById('main_background_line').style.minHeight=4300+(clicks_project*560)+'px'
         clicks_project+=1
       }
       const handleProjectTwelveClick=()=>{
         document.getElementById('project-animation-twelve').className='hidden'
         document.getElementById('main_background_thirteen').className='main-background-project-right'
-        document.getElementById('main_background_line').style.minHeight=3600+(clicks_project*560)+'px'
+        document.getElementById('main_background_line').style.minHeight=4300+(clicks_project*560)+'px'
         clicks_project+=1
       }
       const handleProjectThirteenClick=()=>{
         document.getElementById('project-animation-thirteen').className='hidden'
         document.getElementById('main_background_fourteen').className='main-background-project-left'
-        document.getElementById('main_background_line').style.minHeight=3600+(clicks_project*560)+'px'
+        document.getElementById('main_background_line').style.minHeight=4300+(clicks_project*560)+'px'
         clicks_project+=1
       }
 
@@ -155,82 +155,82 @@ export const Main=()=>{
         document.getElementById('project-animation-one').className='project-animation-left'
         document.getElementById('main_background_two').className='hidden'
         clicks_project-=1
-        document.getElementById('main_background_line').style.minHeight=3600+(clicks_project*560)-560+'px'
+        document.getElementById('main_background_line').style.minHeight=4300+(clicks_project*560)-560+'px'
       }
 
       const handleCloseTwo=()=>{
         document.getElementById('project-animation-two').className='project-animation-right'
         document.getElementById('main_background_three').className='hidden'
         clicks_project-=1
-        document.getElementById('main_background_line').style.minHeight=3600+(clicks_project*560)-560+'px'
+        document.getElementById('main_background_line').style.minHeight=4300+(clicks_project*560)-560+'px'
       }
 
       const handleCloseThree=()=>{
         document.getElementById('project-animation-three').className='project-animation-left'
         document.getElementById('main_background_four').className='hidden'
         clicks_project-=1
-        document.getElementById('main_background_line').style.minHeight=3600+(clicks_project*560)-560+'px'
+        document.getElementById('main_background_line').style.minHeight=4300+(clicks_project*560)-560+'px'
       }
       const handleCloseFour=()=>{
         document.getElementById('project-animation-four').className='project-animation-right'
         document.getElementById('main_background_five').className='hidden'
         clicks_project-=1
-        document.getElementById('main_background_line').style.minHeight=3600+(clicks_project*560)-560+'px'
+        document.getElementById('main_background_line').style.minHeight=4300+(clicks_project*560)-560+'px'
       }
       const handleCloseFive=()=>{
         document.getElementById('project-animation-five').className='project-animation-left'
         document.getElementById('main_background_six').className='hidden'
         clicks_project-=1
-        document.getElementById('main_background_line').style.minHeight=3600+(clicks_project*560)-560+'px'
+        document.getElementById('main_background_line').style.minHeight=4300+(clicks_project*560)-560+'px'
       }
       const handleCloseSix=()=>{
         document.getElementById('project-animation-six').className='project-animation-right'
         document.getElementById('main_background_seven').className='hidden'
         clicks_project-=1
-        document.getElementById('main_background_line').style.minHeight=3600+(clicks_project*560)-560+'px'
+        document.getElementById('main_background_line').style.minHeight=4300+(clicks_project*560)-560+'px'
       }
       const handleCloseSeven=()=>{
         document.getElementById('project-animation-seven').className='project-animation-left'
         document.getElementById('main_background_eight').className='hidden'
         clicks_project-=1
-        document.getElementById('main_background_line').style.minHeight=3600+(clicks_project*560)-560+'px'
+        document.getElementById('main_background_line').style.minHeight=4300+(clicks_project*560)-560+'px'
       }
       const handleCloseEight=()=>{
         document.getElementById('project-animation-eight').className='project-animation-right'
         document.getElementById('main_background_nine').className='hidden'
         clicks_project-=1
-        document.getElementById('main_background_line').style.minHeight=3600+(clicks_project*560)-560+'px'
+        document.getElementById('main_background_line').style.minHeight=4300+(clicks_project*560)-560+'px'
       }
       const handleCloseNine=()=>{
         document.getElementById('project-animation-nine').className='project-animation-left'
         document.getElementById('main_background_ten').className='hidden'
         clicks_project-=1
-        document.getElementById('main_background_line').style.minHeight=3600+(clicks_project*560)-560+'px'
+        document.getElementById('main_background_line').style.minHeight=4300+(clicks_project*560)-560+'px'
       }
       const handleCloseTen=()=>{
         document.getElementById('project-animation-ten').className='project-animation-right'
         document.getElementById('main_background_eleven').className='hidden'
         clicks_project-=1
-        document.getElementById('main_background_line').style.minHeight=3600+(clicks_project*560)-560+'px'
+        document.getElementById('main_background_line').style.minHeight=4300+(clicks_project*560)-560+'px'
       }
       const handleCloseEleven=()=>{
         document.getElementById('project-animation-eleven').className='project-animation-left'
         document.getElementById('main_background_twelve').className='hidden'
         clicks_project-=1
-        document.getElementById('main_background_line').style.minHeight=3600+(clicks_project*560)-560+'px'
+        document.getElementById('main_background_line').style.minHeight=4300+(clicks_project*560)-560+'px'
       }
       const handleCloseTwelve=()=>{
         document.getElementById('project-animation-twelve').className='project-animation-right'
         document.getElementById('main_background_thirteen').className='hidden'
         clicks_project-=1
-        document.getElementById('main_background_line').style.minHeight=3600+(clicks_project*560)-560+'px'
+        document.getElementById('main_background_line').style.minHeight=4300+(clicks_project*560)-560+'px'
       }
 
       const handleCloseThirteen=()=>{
         document.getElementById('project-animation-thirteen').className='project-animation-left'
         document.getElementById('main_background_fourteen').className='hidden'
         clicks_project-=1
-        document.getElementById('main_background_line').style.minHeight=3600+(clicks_project*560)-560+'px'
+        document.getElementById('main_background_line').style.minHeight=4300+(clicks_project*560)-560+'px'
       }
     return(
         <div className='main-background'>
@@ -390,7 +390,7 @@ export const Main=()=>{
                 <strong style={{textDecoration:"underline"}}>Academic History</strong>
                 X Class CBSE | 2019- 2020 | Percentage Scored: 79.9<br></br>
                 Delhi Public School(INTERMEDIATE- MPC) | 2020- 2022 | Percentage Scored: 90.1%<br></br>
-                KL University(Bachelors in Computer Science)| 2022 - 2026 | Current CGPA: 9.56<br></br><br></br>
+                KL University(Bachelors in Computer Science)| 2022 - 2026 | Current CGPA: 9.58<br></br><br></br>
                 <strong style={{textDecoration:"underline"}}>Profiles</strong>
                 <div style={{margin:"20px 0px", width:"300px", display:"flex", justifyContent:"center"}}>
                   <a rel="noreferrer" target={"_blank"} href='https://leetcode.com/u/klu_2200031618/'><img src={require('../images/logos/LeetCode.png')} alt='leetcode' style={{height:"60px", width:"60px", borderRadius:"30px", margin:"0px 12px"}}/></a>
