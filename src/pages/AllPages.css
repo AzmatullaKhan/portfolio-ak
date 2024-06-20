@@ -122,8 +122,9 @@
 
 }
 @keyframes main-background-project-animation-left {
-    0%{position: relative;left: -600px;}
-    100%{position: relative; left: 0px;}
+    0%{position: relative;top: 100px; opacity: 0;}
+    /* 99%{opacity: 0.5;} */
+    100%{position: relative; top: 0px;opacity: 1;}
 }
 .main-background-project-right{
     /* border:1px solid #fff; */
@@ -142,8 +143,8 @@
 
 }
 @keyframes main-background-project-animation-right {
-    0%{position: relative;left: 600px;}
-    100%{position: relative; left: 0px;}
+    0%{position: relative;top:100px;opacity: 0;}
+    100%{position: relative; top: 0px;opacity: 1;}
 }
 .project-head{
     text-decoration: underline;
