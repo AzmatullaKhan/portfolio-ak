@@ -273,23 +273,36 @@ a{
     width:1492px;
     box-sizing: border-box;
     display: flex;
-    align-items: center;
-    justify-content: center;
     padding: 0px 60px;
-    line-height: 32px;
-    text-align: center;
+    /* line-height: 32px; */
+    /* text-align: center; */
+    /* border: 1px solid #fff; */
 }
-.certificateSection-certificate{
-    margin-top: 40px;
+.certificateSection-certificate-one{
     height:800px;
-    width:600px;
+    width:200px;
     border-radius: 12px;
     background-size:cover;
-    /* transition: all 0.5s ease-out; */
+    background-image: url('../files/rpa.png');
+    transition: all 0.5s ease-out;
 }
-/* .certificateSection-certificate:hover{
-    width:600px
-} */
+.certificateSection-certificate-one:hover{
+    width:600px;
+    background-size: cover;
+}
+
+.certificateSection-certificate-two{
+    height:800px;
+    width:200px;
+    border-radius: 12px;
+    background-size:cover;
+    background-image: url('../files/CSEdge.png');
+    transition: all 0.5s ease-out;
+}
+.certificateSection-certificate-two:hover{
+    width:890px;
+    background-size: cover;
+}
 
 footer{
     width:100%;
