@@ -25,7 +25,7 @@
     position:fixed;
     top:0;
     width:1492px;
-    height:80px;
+    height:60px;
     box-sizing: border-box;
     text-align: center;
     z-index: 10;
@@ -40,8 +40,8 @@
 }
 
 .main-background-nav-button{
-    height:40px;
-    width:120px;
+    height:30px;
+    width:100px;
     background-color: #000;
     color: #fff;
     outline: none;
@@ -279,7 +279,7 @@ a{
     /* border: 1px solid #fff; */
 }
 .certificateSection-certificate-one{
-    height:800px;
+    height:700px;
     width:200px;
     border-radius: 12px;
     background-size:cover;
@@ -287,12 +287,12 @@ a{
     transition: all 0.5s ease-out;
 }
 .certificateSection-certificate-one:hover{
-    width:600px;
+    width:500px;
     background-size: cover;
 }
 
 .certificateSection-certificate-two{
-    height:800px;
+    height:700px;
     width:200px;
     border-radius: 12px;
     background-size:cover;
@@ -300,7 +300,7 @@ a{
     transition: all 0.5s ease-out;
 }
 .certificateSection-certificate-two:hover{
-    width:890px;
+    width:770px;
     background-size: cover;
 }
 

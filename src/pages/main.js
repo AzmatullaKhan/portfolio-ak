@@ -409,6 +409,13 @@ export const Main=()=>{
           </section>
 
           <section id='certificatesSection'>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+
             <div className='certificateSection-container' data-aos='fade-down' data-aos-offset="400"><br></br>
               <a rel='noreferrer' target={'_blank'} href="https://api.accredible.com/v1/auth/invite?code=680eada31ffeccfc8424&credential_id=ada99758-285f-4b7e-91b5-14ba34f8e0f6&url=https%3A%2F%2Fcertificates.automationanywhere.com%2Fada99758-285f-4b7e-91b5-14ba34f8e0f6&ident=22787fea-920a-41ff-ae59-43cf0c079c8c">
                 <div className='certificateSection-certificate-one' alt='csedge'></div>
