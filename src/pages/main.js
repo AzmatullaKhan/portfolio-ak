@@ -256,7 +256,6 @@ export const Main=()=>{
             <div className='project-animation-left' id='project-animation-one' data-aos='fade-left' data-aos-offset='300' onClick={handleProjectOneClick} style={{marginTop:"0px"}}>
               <p  style={{cursor:"pointer", fontSize:"22px"}} id='project-animation-idHolder'>1.Movie TV Show Recommendation</p>
               <img className='animation-each-image-left' src={require('../images/animation_folder/animation-preview1.png')} alt='img'/>
-              {/* <div className='animation-each-image-left-white'>Used Technnologies:- Python, Django, PSQL, HTML, CSS and Javascript</div> */}
             </div>
             <div className='hidden' id='main_background_two'>
               <Project1 />
